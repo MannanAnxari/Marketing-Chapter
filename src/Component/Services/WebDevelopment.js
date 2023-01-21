@@ -81,10 +81,8 @@ export const WebDevelopment = () => {
                 <div class="container">
                     <div class="sec-title mb-md-5 my-2">
                         <div class="row">
-                            <div class="head  col-lg-12 col-md-12 col-sm-12">
+                            <div class="head col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h1 className=' heading pb-2'>Our Key Values</h1>
-                            </div>
-                            <div class=" col-lg-8 col-md-8 col-sm-12">
                                 <p class="para">Core values are critical if you want to create a long-lasting, successful,
                                     and motivating place to work.
                                 </p>
@@ -246,10 +244,10 @@ export const WebDevelopment = () => {
                     </div>
                 </div>
             </div> */}
-            <div className="sec py-5 text-start">
+            <div className="sec py-5 text-center">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7">
+                        <div className="col-md-12">
                             <h1 className="heading">
                                 Stacks Used in Service
                             </h1>
@@ -302,7 +300,7 @@ export const WebDevelopment = () => {
                 </div>
             </div>
 
-            <div className="sec py-5 text-start">
+            <div className="sec py-5 text-center">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

@@ -31,14 +31,17 @@ export const Header = () => {
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
 
-                                <div class={`collapse navbar-collapse justify-content-evenly ${isActive ? "show" : " "}`} id="navbarSupportedContent">
+                                <div class={`collapse navbar-collapse ${isActive ? "show" : " "}`} id="navbarSupportedContent">
                                     <ul className="navbar-nav ml-auto py-4 py-md-0 gap-3 pb-3">
                                         <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/' && "active"}`}>
                                             <Link class={`nav-link`} to='/'>Home</Link>
                                         </li>
-                                        <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/About' && "active"}`}>
-                                            <Link class={`nav-link`} to="/about">About</Link>
+                                        <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/product' && "active"}`}>
+                                            <Link class={`nav-link`} to="/product">Products</Link>
                                         </li>
+                                        {/* <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/About' && "active"}`}>
+                                            <Link class={`nav-link`} to="/about">About</Link>
+                                        </li> */}
                                         <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
                                             <ul className="dropdown-menu">
@@ -56,9 +59,9 @@ export const Header = () => {
                                         <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/pricing' && "active"}`}>
                                             <Link class={`nav-link`} to={'/pricing'}>Pricing</Link>
                                         </li>
-                                        <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/Blog' && "active"}`}>
+                                        {/* <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/Blog' && "active"}`}>
                                             <Link class={`nav-link`} to={'/blog'}>Blog</Link>
-                                        </li>
+                                        </li> */}
                                         <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/Contact' && "active"}`}>
                                             <Link class={`nav-link`} to={'/contact'}>Contact</Link>
                                         </li>

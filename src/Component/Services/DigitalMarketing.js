@@ -31,7 +31,7 @@ export const DigitalMarketing = () => {
                     <div className="row text-start">
                         <div className="col-md-6 my-md-auto my-3">
                             <h1 className="heading">Digital Marketing</h1>
-                            <h1 className="fs-4 heading line-height-sm fw-normal">Elevate Your Brand with Our Digital Marketing Services
+                            <h1 className="fs-4 heading-sm line-height-sm fw-normal">Elevate Your Brand with Our Digital Marketing Services
                             </h1>
                             <p className="para-sm text-muted my-4">
                                 Media Chapter is the digital marketing agency that can help you bring traffic to your newly-launched startup and convert them into qualified leads or potential customers. Get your hands on our digital marketing services today and double your business.
@@ -55,7 +55,7 @@ export const DigitalMarketing = () => {
             <div className="sec py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-8 mx-auto">
+                        <div className="col-md-12 mx-auto">
                             <h2 className="heading fs-2">
                                 Our Digital Marketing Services Cover Everything
 

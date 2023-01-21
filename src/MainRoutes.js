@@ -31,6 +31,7 @@ import { ProjectDiscussion } from './Component/Dashboard/ProjectDiscussion';
 import { SingleProjectDiscussion } from './Component/Dashboard/ChatComponents/SingleProject';
 import { CompletedProjects } from './Component/Dashboard/CompletedProjects';
 import { Verify } from './Component/Auth/Verify';
+import { Product } from './Component/Product';
 
 
 export const MainRoutes = () => {
@@ -46,8 +47,9 @@ export const MainRoutes = () => {
                 :
                 <Routes key={pathname} location={pathname}>
                     <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
                     <Route path="/graphic-design" element={<Graphics />} />
+                    {/* <Route path="/about" element={<About />} /> */}
+                    <Route path="/product" element={<Product />} />
                     <Route path="/web-development" element={<WebDevelopment />} />
                     <Route path="/seo" element={<Seo />} />
                     <Route path="/digital-marketing" element={<DigitalMarketing />} />

@@ -29,7 +29,7 @@ export const ContentWriting = () => {
                     <div className="row text-start">
                         <div className="col-md-6 my-md-auto my-3">
                             <h1 className="heading">Content Writing</h1>
-                            <h1 className="fs-4 heading line-height-sm fw-normal">Make Your SEO Successful with High-Quality Content
+                            <h1 className="fs-4 heading-sm line-height-sm fw-normal">Make Your SEO Successful with High-Quality Content
 
                             </h1>
                             <p className="para-sm text-muted my-4">
@@ -54,7 +54,7 @@ export const ContentWriting = () => {
             <div className="sec py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-8 mx-auto">
+                        <div className="col-md-12 mx-auto">
 
                             <h2 className="heading fs-2">
                                 Our Digital Marketing Services Cover Everything
