@@ -18,7 +18,7 @@ export const Product = () => {
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatum consequatur ipsa consectetur beatae ipsum, nostrum molestiae harum reprehenderit error, nesciunt tempora omnis neque mollitia. Sapiente repudiandae dicta iure! Ut?
                             </p>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-12">
+                        <div className="col-lg-3 col-md-4 col-12 my-3">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -31,7 +31,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-12">
+                        <div className="col-lg-3 col-md-4 col-12 my-3">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -44,7 +44,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-12">
+                        <div className="col-lg-3 col-md-4 col-12 my-3">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -57,7 +57,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-12">
+                        <div className="col-lg-3 col-md-4 col-12 my-3">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -90,7 +90,7 @@ export const Product = () => {
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatum consequatur ipsa consectetur beatae ipsum, nostrum molestiae harum reprehenderit error, nesciunt tempora omnis neque mollitia. Sapiente repudiandae dicta iure! Ut?
                             </p>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-12">
+                        <div className="col-lg-3 col-md-4 col-12 my-3">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -103,7 +103,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-12">
+                        <div className="col-lg-3 col-md-4 col-12 my-3">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -116,7 +116,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-12">
+                        <div className="col-lg-3 col-md-4 col-12 my-3">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -129,7 +129,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-12">
+                        <div className="col-lg-3 col-md-4 col-12 my-3">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
