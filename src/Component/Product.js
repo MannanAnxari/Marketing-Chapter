@@ -12,13 +12,13 @@ export const Product = () => {
                         <div className="col-md-12 mx-auto mb-4">
 
                             <h2 className="heading fs-2 p-0 m-0 ">
-                                roduct Title
+                                Product Title
                             </h2>
                             <p className="para-sm text-muted">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatum consequatur ipsa consectetur beatae ipsum, nostrum molestiae harum reprehenderit error, nesciunt tempora omnis neque mollitia. Sapiente repudiandae dicta iure! Ut?
                             </p>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-md-4 col-12">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -31,7 +31,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-md-4 col-12">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -44,7 +44,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-md-4 col-12">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -57,7 +57,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-md-4 col-12">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -74,7 +74,7 @@ export const Product = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> 
             <div className='sec'>
 
 
@@ -84,13 +84,13 @@ export const Product = () => {
                         <div className="col-md-12 mx-auto mb-4">
 
                             <h2 className="heading fs-2 p-0 m-0 ">
-                                roduct Title
+                                Product Title
                             </h2>
                             <p className="para-sm text-muted">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatum consequatur ipsa consectetur beatae ipsum, nostrum molestiae harum reprehenderit error, nesciunt tempora omnis neque mollitia. Sapiente repudiandae dicta iure! Ut?
                             </p>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-md-4 col-12">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -103,7 +103,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-md-4 col-12">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -116,7 +116,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-md-4 col-12">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -129,7 +129,7 @@ export const Product = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-6">
+                        <div className="col-lg-3 col-md-4 col-12">
                             <article class="box rounded-4 overflow-hidden">
                                 <img height={175} style={{ objectFit: "cover" }} className='w-100' alt="" src="https://i.imgur.com/JN2wkb6.jpg" draggable="false" />
                                 <div class="details">
@@ -146,7 +146,7 @@ export const Product = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> 
         </>
     )
 }
