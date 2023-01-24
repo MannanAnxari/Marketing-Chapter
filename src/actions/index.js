@@ -17,6 +17,26 @@ export const updateUserData = () => {
 export const removeUserData = () => {
     return {
         type: "REMOVE_USER"
-
     }
 }
+
+export const setCartItems = (data) => {
+
+    return {
+        type: "CART",
+        payload: {
+            id: new Date().getTime().toString(),
+            items: data,
+        }
+    }
+}
+export const removeCartItems = (data) => {
+
+    return {
+        type: "REMOVE_ITEM",
+        payload: {
+            id: new Date().getTime().toString(),
+            items: data,
+        }
+    }
+} 

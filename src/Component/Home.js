@@ -114,6 +114,55 @@ export const Home = () => {
                     <ButtonNext>Next</ButtonNext>
                 </CarouselProvider>
             </div>
+            {/* <div className="sec p-5 home">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h1 className="heading">Our Services
+                            </h1>
+                            <p className="my-3 text-muted para-sm">
+                                From branding strategies and graphic design to web development and SEO, our masterful team cover everything with perfection to help you transform your visionary company into a reality.
+                            </p>
+                        </div>
+                        <div className="col-md-4 col-12 my-3">
+                            <div class="card">
+                                <div class=""><img src={card0} draggable={false} className={'w-card'} alt="card" /></div>
+                                <p class="title">Graphic Design</p>
+                                <p class="text">Whether you’re looking for an out-of-the-box logo design or game-changing stationery for your business, the top-rated designers at MediaChapter can do it for you. </p>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-12 my-3">
+                            <div class="card">
+                                <div class=""><img src={card1} draggable={false} className={'w-card'} alt="card" /></div>
+                                <p class="title">Web Development</p>
+                                <p class="text"> Want a website where people come, stay, and take desired actions? You are at the right place. Get in touch with us now to get a workable website for your business.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-12 my-3">
+                            <div class="card">
+                                <div class=""><img src={card2} draggable={false} className={'w-card'} alt="card" /></div>
+                                <p class="title">Digital Marketing</p>
+                                <p class="text">Whether you’re a startup or a settled company, our profound digital experts will come up with innovative strategies to drive new clients to your website.</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-12 my-3">
+                            <div class="card">
+                                <div class=""><img src={card3} draggable={false} className={'w-card'} alt="card" /></div>
+                                <p class="title">Content Writing</p>
+                                <p class="text">No matter how good your logo or website is, you can’t increase engagement without creating high-quality, fresh, and unique content. At MediaChapter, we have creative writers who can do the job for you.</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-12 my-3">
+                            <div class="card">
+                                <div class=""><img src={card4} draggable={false} className={'w-card'} alt="card" /></div>
+                                <p class="title">SEO</p>
+                                <p class="text">Want a website where people come, stay, and take desired actions? You are at the right place. Get in touch with us now to get a workable website for your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
             <div className="sec py-5 home">
                 <div className="container">
 
@@ -127,75 +176,59 @@ export const Home = () => {
                         </div>
                         <div className="col-md-4 col-12 my-3 m-auto">
                             <div class="card crd">
-                                <div className="liner bg-white">
-
-                                    <h1 className='heading-sm fw-normal'>Graphic Design</h1>
+                                <div class="bottom-curve"></div>
+                                <div class="image-crop cardImg text-start">
+                                    <img src={card0} draggable={false} className={'w-card'} alt="card" />
                                 </div>
-                                <div class="image-crop cardImg my-4">
-                                    <img src={card0} draggable={false} className={'w-card '} alt="card" />
-                                </div>
-                                <div class="bio">
-                                    <p className='mb-0 para text-white'>Whether you’re looking for an out-of-the-box logo design or game-changing stationery for your business, the top-rated designers at MediaChapter can do it for you. </p>
-                                </div>
+                                <h1 className='my-3  fs-3 text-start fw-normal'>Graphic Design</h1>
+                                <p className='mb-0 para px-0 text-start'>Whether you’re looking for an out-of-the-box logo design or game-changing stationery for your business, the top-rated designers at MediaChapter can do it for you. </p>
+                                <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
                         <div className="col-md-4 col-12 my-3 m-auto">
                             <div class="card crd">
-                                <div className="liner bg-white">
-
-                                    <h1 className='heading-sm fw-normal'> Web Development			</h1>
+                                <div class="bottom-curve"></div>
+                                <div class="image-crop cardImg text-start">
+                                    <img src={card1} draggable={false} className={'w-card'} alt="card" />
                                 </div>
-                                <div class="image-crop cardImg my-4">
-                                    <img src={card1} draggable={false} className={'w-card '} alt="card" />
-                                </div>
-                                <div class="bio">
-                                    <p className='mb-0 para text-white'>Want a website where people come, stay, and take desired actions? You are at the right place. Get in touch with us now to get a workable website for your business.</p>
-                                </div>
+                                <h1 className='my-3  fs-3 text-start fw-normal'> Web Development			</h1>
+                                <p className='mb-0 para px-0'> text-startWant a website where people come, stay, and take desired actions? You are at the right place. Get in touch with us now to get a workable website for your business.</p>
+                                <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
                         <div className="col-md-4 col-12 my-3 m-auto">
                             <div class="card crd">
-                                <div className="liner bg-white">
-
-                                    <h1 className='heading-sm fw-normal'> 		Digital Marketing	</h1>
+                                <div class="bottom-curve"></div>
+                                <div class="image-crop cardImg text-start">
+                                    <img src={card2} draggable={false} className={'w-card'} alt="card" />
                                 </div>
-                                <div class="image-crop cardImg my-4">
-                                    <img src={card2} draggable={false} className={'w-card '} alt="card" />
-                                </div>
-                                <div class="bio">
-                                    <p className='mb-0 para text-white'>Whether you’re a startup or a settled company, our profound digital experts will come up with innovative strategies to drive new clients to your website.</p>
-                                </div>
+                                <h1 className='my-3  fs-3 text-start fw-normal'> 		Digital Marketing	</h1>
+                                <p className='mb-0 para px-0 text-start'>Whether you’re a startup or a settled company, our profound digital experts will come up with innovative strategies to drive new clients to your website.</p>
+                                <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
                         <div className="col-md-4 col-12 my-3 ms-auto">
                             <div class="card crd">
-                                <div className="liner bg-white">
-
-                                    <h1 className='heading-sm fw-normal'> 		  Content Writing			</h1>
+                                <div class="bottom-curve"></div>
+                                <div class="image-crop cardImg text-start">
+                                    <img src={card3} draggable={false} className={'w-card'} alt="card" />
                                 </div>
-                                <div class="image-crop cardImg my-4">
-                                    <img src={card3} draggable={false} className={'w-card '} alt="card" />
-                                </div>
-                                <div class="bio">
-                                    <p className='mb-0 para text-white'>No matter how good your logo or website is, you can’t increase engagement without creating high-quality, fresh, and unique content. At MediaChapter, we have creative writers who can do the job for you.</p>
-                                </div>
+                                <h1 className='my-3  fs-3 text-start fw-normal'> 		  Content Writing			</h1>
+                                <p className='mb-0 para px-0'> text-startNo matter how good your logo or website is, you can’t increase engagement without creating high-quality, fresh, and unique content. At MediaChapter, we have creative writers who can do the job for you.</p>
+                                <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
                         <div className="col-md-4 col-12 my-3 me-auto">
                             <div class="card crd">
-                                <div className="liner bg-white">
-
-                                    <h1 className='heading-sm fw-normal'> 		  SEO			</h1>
+                                <div class="bottom-curve"></div>
+                                <div class="image-crop cardImg text-start">
+                                    <img src={card4} draggable={false} className={'w-card'} alt="card" />
                                 </div>
-                                <div class="image-crop cardImg my-4">
-                                    <img src={card4} draggable={false} className={'w-card '} alt="card" />
-                                </div>
-                                <div class="bio">
-                                    <p className='mb-0 para text-white'>Want a website where people come, stay, and take desired actions? You are at the right place. Get in touch with us now to get a workable website for your business.</p>
-                                </div>
+                                <h1 className='my-3  fs-3 text-start fw-normal'> 		  SEO			</h1>
+                                <p className='mb-0 para px-0'> text-startWant a website where people come, stay, and take desired actions? You are at the right place. Get in touch with us now to get a workable website for your business.</p>
+                                <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
-
 
                     </div>
                 </div>

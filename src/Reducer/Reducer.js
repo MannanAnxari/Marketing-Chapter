@@ -13,8 +13,9 @@ const userReducer = (state = initialData, action) => {
             //         {
             //             id: id,
             //             data: data
-
-            //         }]
+            //
+            //         },
+            //     ],
             // }
             return {
                 // ...state,
@@ -24,7 +25,8 @@ const userReducer = (state = initialData, action) => {
                         id: id,
                         data: data
 
-                    }]
+                    },
+                ]
             }
         case "REMOVE_USER":
             return {

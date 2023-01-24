@@ -10,13 +10,14 @@ import { useState, useEffect } from 'react';
 import { URL, APP_NAME } from './config'
 import { Toaster } from "react-hot-toast";
 import { useSelector, useDispatch } from 'react-redux';
-import { removeUserData, addUserData, updateUserData } from './actions';
+import { removeUserData, addUserData, updateUserData, setCartItems, removeCartItems } from './actions';
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 
 
 function App() {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.userReducer.user[0]);
+  const cartItems = useSelector((state) => state.cartReducer.items);
   const [couponItems, setCouponItems] = useState([]);
   const [FilterCategory, setFilterCategory] = useState([]);
   const [FilterStore, setFilterStore] = useState([]);
@@ -30,9 +31,8 @@ function App() {
     () => EditorState.createEmpty(),
   );
   // var APP_NAME = APP_NAME;
-
   var values = {
-    teams, teamsImgPath, couponItems, setCouponItems, EditorState, setNoteValue, ContentState, editorState, setEditorState, noteValue, FilterCategory, setFilterCategory, FilterStore, setFilterStore, setTitle, Title, APP_NAME, URL, data, setData, img, setImg, removeUserData, addUserData, updateUserData, dispatch, user
+    teams, teamsImgPath, couponItems, setCouponItems, EditorState, setCartItems, removeCartItems, cartItems, setNoteValue, ContentState, editorState, setEditorState, noteValue, FilterCategory, setFilterCategory, FilterStore, setFilterStore, setTitle, Title, APP_NAME, URL, data, setData, img, setImg, removeUserData, addUserData, updateUserData, dispatch, user
   }
 
   useEffect(() => {
@@ -41,6 +41,8 @@ function App() {
 
 
   const fetchTeams = () => {
+
+
     fetch(`${URL}api/team-member`)
       .then((response) => response.json())
       .then((actualData) => { setTeams(actualData.team); setTeamsImgPath(actualData.media_path); })
@@ -50,7 +52,6 @@ function App() {
       }
       );
   }
-
 
   const initialOptions = {
     "client-id": "AeNv_91L0KGqMWRNUl-J00NsP080jqi7csIKewmFf9nQxVzSXsHQkWy5ma94mB7HB4RJY2zGDqkOCqlY",
