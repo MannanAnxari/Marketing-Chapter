@@ -7,21 +7,21 @@ var items = [
     {
         id: 1,
         title: "Website Rental",
-        img: "https://cdn.dribbble.com/users/1963775/screenshots/16611959/car_rental_website_transition_4x.png",
+        img: "https://static.wixstatic.com/media/ea6ac8_b6b0cbe25615488e855f515846354dda~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea6ac8_b6b0cbe25615488e855f515846354dda~mv2.jpg",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!",
         price: 230.99,
     },
     {
         id: 2,
-        title: "Website Rental",
-        img: "https://cdn.dribbble.com/users/1963775/screenshots/16611959/car_rental_website_transition_4x.png",
+        title: "what's app order web",
+        img: "https://whatsorder.com/assets/wo-hero-img.png",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!",
         price: 230.99,
     },
     {
         id: 3,
-        title: "Website Rental",
-        img: "https://cdn.dribbble.com/users/1963775/screenshots/16611959/car_rental_website_transition_4x.png",
+        title: "Whatsapp bots",
+        img: "https://blog.sirena.app/hubfs/Co%CC%81mo%20crear%20un%20bot%20para%20WhatsApp%20(1)-png.png",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!",
         price: 230.99,
     },
@@ -135,7 +135,7 @@ export const Product = () => {
                     <Form.Item name={['page_name']} label="page_name" style={{ display: "none" }} initialValue={document.title.split("-")[1]} >
                         <Input />
                     </Form.Item>
-                    <Form.Item name={['package_name']} label="package_name" style={{ display: "none" }} initialValue={currentProduct} >
+                    <Form.Item name={['inquiry_about']} label="package_name" style={{ display: "none" }} initialValue={currentProduct} >
                         <Input />
                     </Form.Item>
 
