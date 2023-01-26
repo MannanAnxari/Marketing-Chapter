@@ -5,7 +5,7 @@ import { AppContext } from '../../context/AppContext';
 import digital from "../assets/digitalmarketing.png";
 import { ContactForm } from '../ContactForm';
 import { SkillsCircle } from '../SkillsCircle';
-import seo from "../assets/seo.png";
+import seo from "../assets/Illustration-Icon-3.png";
 
 
 export const DigitalMarketing = () => {

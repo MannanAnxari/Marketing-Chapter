@@ -5,7 +5,7 @@ import content from "../assets/content.png";
 import { AppContext } from '../../context/AppContext';
 import { ContactForm } from '../ContactForm';
 import { SkillsCircle } from '../SkillsCircle';
-import seo from "../assets/seo.png";
+import seo from "../assets/Illustration-Icon-4.png";
 
 
 export const ContentWriting = () => {

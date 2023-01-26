@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
-import seo from "../assets/seo.png";
+import seo from "../assets/Illustration-Icon-5.png";
 import { AppContext } from '../../context/AppContext';
 import { Link } from 'react-router-dom';
 import { ContactForm } from '../ContactForm';
