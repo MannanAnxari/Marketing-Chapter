@@ -5,6 +5,7 @@ import { AppContext } from '../../context/AppContext';
 import digital from "../assets/digitalmarketing.png";
 import { ContactForm } from '../ContactForm';
 import { SkillsCircle } from '../SkillsCircle';
+import seo from "../assets/seo.png";
 
 
 export const DigitalMarketing = () => {
@@ -12,16 +13,21 @@ export const DigitalMarketing = () => {
     setTitle(`${APP_NAME}Digital Marketing`);
     return (
         <motion.div initial={{ transition: { duration: 1 }, opacity: 0 }} animate={{ transition: { duration: 1 }, opacity: 1 }} exit={{ transition: { duration: 1 }, opacity: 0 }}>
-            <div className="digital-marketing image-banner sec">
+            
+            
+            <div className="seo image-banner sec ">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="h-100 col-sm-6 d-flex flex-column align-items-start justify-content-center">
-                            <h1 className='text-white text-start'>Drive More Leads, More
+                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center">
+                            <h1 className='text-start'>Drive More Leads, More
                                 Revenue with Our
                                 Digital Marketing Services</h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>
+                        </div>
+                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center">
+                            <img src={seo} className="w-100" alt="banner" />
                         </div>
                     </div>
                 </div>

@@ -2,10 +2,13 @@ import React from 'react';
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
-import slide from './assets/home-slider.png';
-import slide0 from './assets/home-slider0.png';
+import slide from './assets/banner-1.png';
+import slide0 from './assets/banner-2.png';
+import slide1 from './assets/banner-3.png';
+import slide2 from './assets/banner-4.png';
+import slide3 from './assets/banner-5.png';
+import slide4 from './assets/banner-6.png';
 import Sliderz from "react-slick";
-import slide1 from './assets/home-slider1.png';
 import card0 from './assets/card0.png';
 import { Link } from 'react-router-dom';
 import card1 from './assets/card1.png';
@@ -63,52 +66,86 @@ export const Home = () => {
                 <CarouselProvider className='slider container bannerSlider'
                     naturalSlideWidth={100}
                     naturalSlideHeight={50}
-                    totalSlides={3}
+                    totalSlides={6}
                     isPlaying={true}
                     interval={5000}
                 >
                     <Slider>
                         <Slide index={0} className="mainSlide">
                             <div className="row w-100 h-100">
-                                <div className="col-6 my-auto">
-                                    <h5>
-                                        A world full of wonder
-                                    </h5>
-                                    <h1 className='my-4'>We Write The Best Chapter for Your Brand</h1>
+                                <div className="col-6 my-auto p-4">
+
+                                    <h1 className='mb-3'>Pakistan's First Remote<span>  Based Agency</span></h1>
+                                    <button className="btn btn-dark">
+                                        GET A QUOTE
+                                    </button>
+                                </div>
+                                <div className="col-6 sliderImage my-auto p-4"><img src={slide1} alt="slide" className='w-100' /></div>
+                            </div>
+                        </Slide>
+                        <Slide index={3} className="mainSlide">
+                            <div className="row w-100 h-100">
+                                <div className="col-6 my-auto p-4">
+
+                                    <h1 className='mb-3'>An energy that build memorable <span>brands</span></h1>
+                                    <button className="btn btn-dark">
+                                        GET A QUOTE
+                                    </button>
+                                </div>
+                                <div className="col-6 sliderImage my-auto p-4"><img src={slide2} alt="slide" className='w-100' /></div>
+                            </div>
+                        </Slide>
+                        <Slide index={1} className="mainSlide">
+                            <div className="row w-100 h-100">
+                                <div className="col-6 my-auto p-4">
+
+                                    <h1 className='mb-3'>An energy that build memorable <span>brands</span></h1>
+                                    <button className="btn btn-dark">
+                                        GET A QUOTE
+                                    </button>
+                                </div>
+                                <div className="col-6 sliderImage my-auto p-4"><img src={slide0} alt="slide" className='w-100' /></div>
+                            </div></Slide>
+
+
+                        <Slide index={4} className="mainSlide">
+                            <div className="row w-100 h-100">
+                                <div className="col-6 my-auto p-4">
+
+                                    <h1 className='mb-3'>We Write The Best Chapter for Your <span> Brand</span></h1>
+                                    <button className="btn btn-dark">
+                                        GET A QUOTE
+                                    </button>
+                                </div>
+                                <div className="col-6 sliderImage my-auto p-4"><img src={slide3} alt="slide" className='w-100' /></div>
+                            </div>
+                        </Slide>
+                        <Slide index={2} className="mainSlide">
+                            <div className="row w-100 h-100">
+                                <div className="col-6 my-auto p-4">
+
+                                    <h1 className='mb-3 text-capitalize'>Drive more Leads, <br />more revenue with our <span> digital marketing services</span></h1>
                                     <Link to={'/contact'} className="btn btn-dark">
                                         GET A QUOTE
                                     </Link>
                                 </div>
-                                <div className="col-6 sliderImage my-auto"><img src={slide} alt="slide" className='w-100' /></div>
+                                <div className="col-6 sliderImage my-auto p-4"><img src={slide} alt="slide" className='w-100' /></div>
                             </div>
 
                         </Slide>
-                        <Slide index={1} className="mainSlide">
+
+                        <Slide index={5} className="mainSlide">
                             <div className="row w-100 h-100">
-                                <div className="col-6 my-auto">
-                                    <h5>
-                                        A world full of wonder
-                                    </h5>
-                                    <h1 className='my-4'>We Write The Best Chapter for Your Brand</h1>
+                                <div className="col-6 my-auto p-4">
+
+                                    <h1 className='mb-3'>An energy that build memorable <span>brands</span></h1>
                                     <button className="btn btn-dark">
                                         GET A QUOTE
                                     </button>
                                 </div>
-                                <div className="col-6 sliderImage my-auto"><img src={slide0} alt="slide" className='w-100' /></div>
-                            </div></Slide>
-                        <Slide index={2} className="mainSlide">
-                            <div className="row w-100 h-100">
-                                <div className="col-6 my-auto">
-                                    <h5>
-                                        A world full of wonder
-                                    </h5>
-                                    <h1 className='my-4'>We Write The Best Chapter for Your Brand</h1>
-                                    <button className="btn btn-dark">
-                                        GET A QUOTE
-                                    </button>
-                                </div>
-                                <div className="col-6 sliderImage my-auto"><img src={slide1} alt="slide" className='w-100' /></div>
-                            </div></Slide>
+                                <div className="col-6 sliderImage my-auto p-4"><img src={slide4} alt="slide" className='w-100' /></div>
+                            </div>
+                        </Slide>
                     </Slider>
                     <ButtonBack>Back</ButtonBack>
                     <ButtonNext>Next</ButtonNext>

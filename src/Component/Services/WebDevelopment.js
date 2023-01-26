@@ -14,6 +14,7 @@ import portfolio4 from '../assets/Portfolio/4.png';
 import portfolio5 from '../assets/Portfolio/5.png';
 import tech1 from '../assets/Tech/tech1.png';
 import tech2 from '../assets/Tech/tech2.png';
+import seo from "../assets/seo.png";
 import tech3 from '../assets/Tech/tech3.png';
 import tech4 from '../assets/Tech/tech4.png';
 import tech5 from '../assets/Tech/tech5.png';
@@ -36,14 +37,17 @@ export const WebDevelopment = () => {
 
     return (
         <motion.div initial={{ transition: { duration: 1 }, opacity: 0 }} animate={{ transition: { duration: 1 }, opacity: 1 }} exit={{ transition: { duration: 1 }, opacity: 0 }}>
-            <div className="web-development sec image-banner">
+            <div className="seo image-banner sec ">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="h-100 col-sm-6 d-flex flex-column align-items-start justify-content-center">
-                            <h1 className='text-white text-start'>An Energy That Builds  Memorable Brands</h1>
+                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center">
+                            <h1 className='text-start'>An Energy That Builds  Memorable Brands</h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>
+                        </div>
+                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center">
+                            <img src={seo} className="w-100" alt="banner" />
                         </div>
                     </div>
                 </div>

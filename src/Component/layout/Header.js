@@ -116,8 +116,8 @@ export const Header = () => {
                                                     </ul>
                                                     :
                                                     <ul className="dropdown-menu">
-                                                        <li><Link className="dropdown-item" to={'login'}>Login</Link></li>
-                                                        <li><Link className="dropdown-item" to={'register'}>Signup</Link></li>
+                                                        <li><Link className="dropdown-item" to={'https://crm.mediachapter.us/login'}>Login</Link></li>
+                                                        <li><Link className="dropdown-item" to={'https://crm.mediachapter.us/signup'}>Signup</Link></li>
                                                     </ul>
                                                 }
                                             </div>

@@ -254,9 +254,10 @@ footer {
 
 .sliderMain .horizontalSlider___281Ls,
 .sliderMain {
-  color: var(--white);
-  background: var(--secondary);
-  background: linear-gradient(151deg, rgba(24, 9, 41, 1) 0%, rgba(98, 15, 39, 1) 100%);
+  color: var(--black);
+  background: #f1faf9 url(./Component/assets/mainBannerBg.jpg) no-repeat center center/cover;
+  background-position-x: 86%;
+  /* background: linear-gradient(151deg, rgba(24, 9, 41, 1) 0%, rgba(98, 15, 39, 1) 100%); */
 }
 
 
@@ -265,6 +266,17 @@ footer {
   nav .nav-link {
     font-size: 14px;
   }
+}
+
+.mainSlide h1 {
+  text-transform: capitalize;
+  color: var(--primary-light);
+  font-weight: 700;
+}
+
+.mainSlide h1>span {
+  color: var(--secondary);
+  font-weight: 700;
 }
 
 .skillsCircles {
@@ -279,6 +291,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+  .sliderMain .horizontalSlider___281Ls,
+  .sliderMain {
+    background-position-x: 76%;
+  }
+
   .login-box {
     min-width: 90% !important;
   }
@@ -294,7 +312,7 @@ footer {
 
   .bannerSlider,
   .mainSlide {
-    height: 30vh !important;
+    height: 35vh !important;
   }
 
   .btn {
@@ -437,9 +455,9 @@ h2 {
 
 }
 
-.sec .h-100.col-sm-6 {
+/* .sec .h-100.col-sm-6 {
   width: 65%;
-}
+} */
 
 .slick-slider {
   position: relative;
@@ -553,27 +571,63 @@ h2 {
 }
 
 .about {
-  background-image: url(./Component/assets/about-banner.jpg);
+  /* background-image: url(./Component/assets/about-banner.jpg); */
+  background-color: #f1faf9;
+}
+
+.about h1 {
+  color: var(--primary-light);
+  font-weight: 700;
 }
 
 .graphic-design {
-  background-image: url(./Component/assets/graphic-banner.jpg);
+  /* background-image: url(./Component/assets/graphic-banner.jpg); */
+  background-color: #f1faf9;
+}
+
+.graphic-design h1 {
+  color: var(--primary-light);
+  font-weight: 700;
 }
 
 .web-development {
-  background-image: url(./Component/assets/web-development.jpg);
+  /* background-image: url(./Component/assets/web-development.jpg); */
+  background-color: #f1faf9;
+}
+
+.web-development h1 {
+  color: var(--primary-light);
+  font-weight: 700;
 }
 
 .seo {
-  background-image: url(./Component/assets/seo-banner.jpg);
+  /* background-image: url(./Component/assets/seo-banner.jpg); */
+  background-color: #f1faf9;
+}
+
+.seo h1 {
+  color: var(--primary-light);
+  font-weight: 700;
 }
 
 .digital-marketing {
-  background-image: url(./Component/assets/digital-marketing.jpg);
+  /* background-image: url(./Component/assets/digital-marketing.jpg); */
+  background-color: #f1faf9;
+}
+
+.digital-marketing h1 {
+  color: var(--primary-light);
+  font-weight: 700;
 }
 
 .content-writing {
-  background-image: url(./Component/assets/content-writing.jpg);
+  /* background-image: url(./Component/assets/content-writing.jpg); */
+  background-color: #f1faf9;
+}
+
+.content-writing h1 {
+  color: var(--primary-light);
+  font-weight: 700;
 }
 
 .basic-cards .crd-image img {
@@ -589,13 +643,13 @@ h2 {
 }
 
 .image-banner {
-  height: 450px;
+  /* height: 450px; */
   transition-duration: calc(5000ms*1.2);
 }
 
 @media (max-width: 767px) {
   .image-banner {
-    height: 334px;
+    /* height: 334px; */
   }
 }
 
