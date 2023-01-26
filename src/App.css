@@ -5415,16 +5415,24 @@ h6.fourty-space {
   .link-box a {
     color: var(--secondary);
   }
-  .crd{
+
+  .link-box {
+    bottom: 14px;
+  }
+
+  .crd {
     overflow: hidden;
   }
-  .card.crd:hover:before{
+
+  .card.crd:hover:before {
     bottom: unset;
     background-color: unset;
   }
-  .card.crd:hover :is(h1, p){
-    color: var(--secondary)!important;
+
+  .card.crd:hover :is(h1, p) {
+    color: var(--secondary) !important;
   }
+
   .crd:hover {
     transform: none !important;
   }
@@ -5473,8 +5481,11 @@ h6.fourty-space {
   .image-banner h1 {
     font-size: 18px;
   }
+
   .bottom-curve {
-    background: #797979;}
+    background: #797979;
+  }
+
   .rowRev {
     flex-direction: column-reverse;
   }
