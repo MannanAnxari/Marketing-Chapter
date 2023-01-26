@@ -5412,7 +5412,10 @@ h6.fourty-space {
     transform: skewX(-45deg) scaleX(1);
   }
 
-  .link-box a {
+  .link-box a,
+  .servicez .inner-box:hover .text,
+  .servicez .inner-box:hover h5 a,
+  .servicez .link-box a {
     color: var(--secondary);
   }
 
@@ -5420,11 +5423,25 @@ h6.fourty-space {
     bottom: 14px;
   }
 
+  .servicez .inner-box {
+    overflow: hidden;
+  }
+
+  .servicez .inner-box .bottom-curve {
+    background-color: #797979;
+    transform: skewX(-45deg) scaleX(1);
+  }
+
   .crd {
     overflow: hidden;
   }
 
-  .card.crd:hover:before {
+  .servicez .inner-box:hover .icon-box {
+    color: var(--secondary);
+  }
+
+  .card.crd:hover:before,
+  .servicez .inner-box:hover:before {
     bottom: unset;
     background-color: unset;
   }
@@ -5485,7 +5502,9 @@ h6.fourty-space {
   .bottom-curve {
     background: #797979;
   }
-
+  .servicez .link-box{
+    bottom: 14px;
+  }
   .rowRev {
     flex-direction: column-reverse;
   }
