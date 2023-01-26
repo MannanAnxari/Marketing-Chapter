@@ -73,77 +73,77 @@ export const Home = () => {
                     <Slider>
                         <Slide index={0} className="mainSlide">
                             <div className="row w-100 h-100">
-                                <div className="col-6 my-auto p-4">
+                                <div className="col-sm-6 col-8 my-auto p-4">
 
                                     <h1 className='mb-3'>Pakistan's First Remote<span>  Based Agency</span></h1>
                                     <button className="btn btn-dark">
                                         GET A QUOTE
                                     </button>
                                 </div>
-                                <div className="col-6 sliderImage my-auto p-4"><img src={slide1} alt="slide" className='w-100' /></div>
+                                <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide1} alt="slide" className='w-100' /></div>
                             </div>
                         </Slide>
                         <Slide index={3} className="mainSlide">
                             <div className="row w-100 h-100">
-                                <div className="col-6 my-auto p-4">
+                                <div className="col-sm-6 col-8 my-auto p-4">
 
                                     <h1 className='mb-3'>An energy that build memorable <span>brands</span></h1>
                                     <button className="btn btn-dark">
                                         GET A QUOTE
                                     </button>
                                 </div>
-                                <div className="col-6 sliderImage my-auto p-4"><img src={slide2} alt="slide" className='w-100' /></div>
+                                <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide2} alt="slide" className='w-100' /></div>
                             </div>
                         </Slide>
                         <Slide index={1} className="mainSlide">
                             <div className="row w-100 h-100">
-                                <div className="col-6 my-auto p-4">
+                                <div className="col-sm-6 col-8 my-auto p-4">
 
                                     <h1 className='mb-3'>An energy that build memorable <span>brands</span></h1>
                                     <button className="btn btn-dark">
                                         GET A QUOTE
                                     </button>
                                 </div>
-                                <div className="col-6 sliderImage my-auto p-4"><img src={slide0} alt="slide" className='w-100' /></div>
+                                <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide0} alt="slide" className='w-100' /></div>
                             </div></Slide>
 
 
                         <Slide index={4} className="mainSlide">
                             <div className="row w-100 h-100">
-                                <div className="col-6 my-auto p-4">
+                                <div className="col-sm-6 col-8 my-auto p-4">
 
                                     <h1 className='mb-3'>We Write The Best Chapter for Your <span> Brand</span></h1>
                                     <button className="btn btn-dark">
                                         GET A QUOTE
                                     </button>
                                 </div>
-                                <div className="col-6 sliderImage my-auto p-4"><img src={slide3} alt="slide" className='w-100' /></div>
+                                <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide3} alt="slide" className='w-100' /></div>
                             </div>
                         </Slide>
                         <Slide index={2} className="mainSlide">
                             <div className="row w-100 h-100">
-                                <div className="col-6 my-auto p-4">
+                                <div className="col-sm-6 col-8 my-auto p-4">
 
                                     <h1 className='mb-3 text-capitalize'>Drive more Leads, <br />more revenue with our <span> digital marketing services</span></h1>
                                     <Link to={'/contact'} className="btn btn-dark">
                                         GET A QUOTE
                                     </Link>
                                 </div>
-                                <div className="col-6 sliderImage my-auto p-4"><img src={slide} alt="slide" className='w-100' /></div>
+                                <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide} alt="slide" className='w-100' /></div>
                             </div>
 
                         </Slide>
 
                         <Slide index={5} className="mainSlide">
                             <div className="row w-100 h-100">
-                                <div className="col-6 my-auto p-4">
+                                <div className="col-sm-6 col-8 my-auto p-4">
 
                                     <h1 className='mb-3'>An energy that build memorable <span>brands</span></h1>
                                     <button className="btn btn-dark">
                                         GET A QUOTE
                                     </button>
                                 </div>
-                                <div className="col-6 sliderImage my-auto p-4"><img src={slide4} alt="slide" className='w-100' /></div>
+                                <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide4} alt="slide" className='w-100' /></div>
                             </div>
                         </Slide>
                     </Slider>

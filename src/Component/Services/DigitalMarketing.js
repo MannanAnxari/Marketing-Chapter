@@ -18,7 +18,7 @@ export const DigitalMarketing = () => {
             <div className="seo image-banner sec ">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center">
+                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center col-7">
                             <h1 className='text-start'>Drive More Leads, More
                                 Revenue with Our
                                 Digital Marketing Services</h1>
@@ -26,7 +26,7 @@ export const DigitalMarketing = () => {
                                 GET A QUOTE
                             </Link>
                         </div>
-                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center">
+                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center col-5">
                             <img src={seo} className="w-100" alt="banner" />
                         </div>
                     </div>

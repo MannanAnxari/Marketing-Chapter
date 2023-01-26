@@ -14,7 +14,7 @@ export const Seo = () => {
             <div className="seo image-banner sec ">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center">
+                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center col-6">
                             <h1 className='text-start'>Make Your Brand
                                 Recognizable with Our
                                 Astounding SEO Services</h1>
@@ -22,7 +22,7 @@ export const Seo = () => {
                                 GET A QUOTE
                             </Link>
                         </div>
-                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center">
+                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center col-6">
                             <img src={seo} className="w-100" alt="banner" />
                         </div>
                     </div>

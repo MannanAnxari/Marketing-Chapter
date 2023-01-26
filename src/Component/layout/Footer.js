@@ -80,7 +80,7 @@ export const Footer = () => {
                                 <input id="newsletter1" type="text" class={`form-control mb-2 shadow-none text-dark border-0 py-2 ${errors.email && "form-control is-invalid  text-dark"}`} {...register('email', { required: true, pattern: /^\S+@\S+$/i })} placeholder="Email address" />
                                 <input type="hidden" name="user_id" value={userid} />
 
-                                <button className="btn btn-main w-100" type="submit">
+                                <button className="btn btn-main w-100 bg-main" type="submit">
                                     Subscribe
                                     {isLoading &&
                                         <div className="spinner-border me-5" style={{ "float": "right" }} role="status">

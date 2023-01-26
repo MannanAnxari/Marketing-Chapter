@@ -6,7 +6,90 @@ import { ContactForm } from './ContactForm';
 export const Pricing = () => {
     return (
         <motion.div initial={{ transition: { duration: 1 }, opacity: 0 }} animate={{ transition: { duration: 1 }, opacity: 1 }} exit={{ transition: { duration: 1 }, opacity: 0 }}>
-            <div className="sec py-md-5 py-3 my-md-5">
+            <div className="sec py-md-5 py-3 my-md-5 pb-0" style={{ paddingBottom: "0em!important" }}>
+
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6 mx-auto mb-md-3">
+                            <h1 className="heading fs-2">
+                                Buy Packages
+                            </h1>
+                            <p className="para-sm fs-6">
+                                Take a look at our affordable packages and choose one that suits your budget and needs.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <table class="table table-light table-striped pricings">
+                                <thead>
+                                    <tr>
+                                        <th scope="col bg-radiant">PROJECT TYPE</th>
+                                        <th scope="col bg-radiant">PRICING</th>
+                                        <th scope="col bg-radiant">ACTION</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>LOGO</td>
+                                        <td>Starting From $49 to $524</td>
+                                        <td><a href="#pricing" class="btn-custom text-white">GET IN TOUCH!</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>GRAPHIC DESIGN</td>
+                                        <td>Starting From $49 to $499
+
+                                        </td>
+                                        <td><a href="#pricing" class="btn-custom text-white">GET IN TOUCH!</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>WEBSITE DEVELOPMENT</td>
+                                        <td>Starting From $249 to $15,000
+
+                                        </td>
+                                        <td><a href="#pricing" class="btn-custom text-white">GET IN TOUCH!</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>SEO</td>
+                                        <td>Starting From $449 to $2,149
+
+                                        </td>
+                                        <td><a href="#pricing" class="btn-custom text-white">GET IN TOUCH!</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>SMM</td>
+                                        <td>Starting From $349 to $1,199
+
+                                        </td>
+                                        <td><a href="#pricing" class="btn-custom text-white">GET IN TOUCH!</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>CONTENT WRITING
+
+                                        </td>
+                                        <td>Starting From $100 to $1,199
+
+                                        </td>
+                                        <td><a href="#pricing" class="btn-custom text-white">GET IN TOUCH!</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>DIGITAL MARKETING
+
+                                        </td>
+                                        <td>Starting From $349 to $6,999
+
+                                        </td>
+                                        <td><a href="#pricing" class="btn-custom text-white">GET IN TOUCH!</a></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* <div className="sec py-md-5 py-3 my-md-5">
 
                 <div className="container">
                     <div className="row">
@@ -241,7 +324,7 @@ export const Pricing = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div id="pricing">
 
                 <ContactForm action={'/'} />

@@ -16,13 +16,13 @@ export const Graphics = () => {
             <div className="seo image-banner sec ">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center">
+                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center col-6">
                             <h1 className='text-start'>An Energy That Builds  Memorable Brands</h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>
                         </div>
-                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center">
+                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center col-6">
                             <img src={seo} className="w-100" alt="banner" />
                         </div>
                     </div>
