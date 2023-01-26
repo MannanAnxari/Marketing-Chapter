@@ -5502,11 +5502,17 @@ h6.fourty-space {
   .bottom-curve {
     background: #797979;
   }
-  .servicez .link-box{
+
+  .servicez .link-box {
     bottom: 14px;
   }
+
   .rowRev {
     flex-direction: column-reverse;
   }
 
+}
+
+.pricings td {
+  vertical-align: middle;
 }
