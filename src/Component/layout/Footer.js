@@ -49,7 +49,7 @@ export const Footer = () => {
                         <Link to="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
                             <img src={Logo} className={'w-75'} alt="" />
                         </Link>
-                        <p className="para-sm">MediaChapter is a team of dedicated designers, developers, content creators, SEO specialists, digital marketers, and other experts who share a common passion for great brands</p>
+                        <p className="para-sm">Marketing Chapter is a team of dedicated designers, developers, content creators, SEO specialists, digital marketers, and other experts who share a common passion for great brands</p>
                     </div>
 
                     <div className="col-md-2 my-md-0 my-3">
@@ -106,7 +106,7 @@ export const Footer = () => {
 
             </div>
             <div className="pt-3 mt-4 border-top para-xs text-center bg-white">
-                <p className='mb-0 pb-3 text-black'>Media Chapter is a registered trademark. Media Chapter is registered in Wyoming, United States. Company no: 45999-0038.
+                <p className='mb-0 pb-3 text-black'>Marketing Chapter is a registered trademark. Marketing Chapter is registered in Wyoming, United States. Company no: 45999-0038.
                 </p>
             </div>
 
