@@ -61,18 +61,18 @@ export const Home = () => {
                                 <div className="col-sm-6 col-8 my-auto p-4">
                                     <h1 className='mb-3'>Pakistan's First Remote<span>  Based Agency</span></h1>
                                     <div className="row w-100 mx-auto">
-                                        <div className="col-md-6 px-0 col-12">
+                                        <div className="col-md-5 px-0 col-12">
 
-                                            <input type="email" onChange={(e) => setEmail(e.target.value)} className='form-control shadow-sm d-inline-block text-dark' placeholder='Send me a Proposal' />
+                                            <input type="email" onChange={(e) => setEmail(e.target.value)} className='form-control shadow-sm d-inline-block text-dark' placeholder='Enter Your Website' />
                                         </div>
-                                        <div className="col-md-4 px-0 col-12">
+                                        <div className="col-md-6 px-0 col-12">
                                             <Link className="btn btn-dark py-2 shadow-sm"
                                                 to={{
                                                     pathname: "/contact",
-                                                    search: `?email=${email}`,
+                                                    search: `?websilte=${email}`,
                                                     state: { fromDashboard: true }
                                                 }}
-                                            >GET A QUOTE</Link>
+                                            >Send me a Proposal</Link>
                                         </div>
 
                                     </div>

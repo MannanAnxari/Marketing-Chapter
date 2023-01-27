@@ -16,9 +16,7 @@ export const Seo = () => {
                 <div className="container h-100">
                     <div className="row h-100">
                         <div className="h-100 my-auto d-flex flex-column align-items-start justify-content-center col-6">
-                            <h1 className='text-start'>Make Your Brand
-                                Recognizable with Our
-                                Astounding SEO Services</h1>
+                            <h1 className='text-start'>Make Your brand recognizable with our astounding <span> seo service</span></h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>

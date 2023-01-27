@@ -19,7 +19,7 @@ export const Graphics = () => {
                 <div className="container h-100">
                     <div className="row h-100">
                         <div className="h-100 my-auto d-flex flex-column align-items-start justify-content-center col-6">
-                            <h1 className='text-start'>An Energy That Builds  Memorable Brands</h1>
+                            <h1 className='text-start'>An Energy That Builds  Memorable <span> Brands</span></h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>

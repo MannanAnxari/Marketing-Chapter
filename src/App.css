@@ -631,7 +631,7 @@ h2 {
 .seo {
   /* background-image: url(./Component/assets/seo-banner.jpg); */
   /* background-color: #f1faf9; */
-  background: #f1faf9 url(http://localhost:3000/static/media/mainBannerBg.32990d80b85d19e6946f.jpg) no-repeat center center/cover;
+  background: #f1faf9 url(./Component/assets/mainBannerBg.jpg) no-repeat center center/cover;
 }
 
 .seo h1 {
@@ -4336,6 +4336,13 @@ main .mail-check:checked+label:before {
   }
 }
 
+.image-banner h1 {
+  text-transform: capitalize;
+}
+
+.image-banner h1>span {
+  color: var(--secondary);
+}
 
 @media (max-width: 768px) {
   .mail-box .mail-title p {
@@ -4343,6 +4350,10 @@ main .mail-check:checked+label:before {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .image-banner img {
+    width: 206px !important;
   }
 
   .textCards .crdd {

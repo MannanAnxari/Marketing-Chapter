@@ -19,9 +19,7 @@ export const DigitalMarketing = () => {
                 <div className="container h-100">
                     <div className="row h-100">
                         <div className="h-100 my-auto d-flex flex-column align-items-start justify-content-center col-6">
-                            <h1 className='text-start'>Drive More Leads, More
-                                Revenue with Our
-                                Digital Marketing Services</h1>
+                        <h1 className='mb-3 text-capitalize text-start'>Drive more Leads, <br />more revenue with our <span> digital marketing services</span></h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>

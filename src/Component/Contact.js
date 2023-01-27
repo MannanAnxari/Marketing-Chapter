@@ -16,7 +16,7 @@ export const Contact = () => {
     setTitle(`${APP_NAME}Contact`);
 
     const query = new URLSearchParams(window.location.search);
-    const mail = query.get('email')
+    const mail = query.get('websilte')
 
     const {
         register,
@@ -136,7 +136,7 @@ export const Contact = () => {
                                         <div className="col-md-6">
 
                                             <div className="input-container mb-2">
-                                                <input type="email" name="email" value={mail ? mail : ""} class={`input ${errors.email && "form-control is-invalid"}`} placeholder='.' {...register('email', { required: true, pattern: /^\S+@\S+$/i })} />
+                                                <input type="email" name="email" class={`input ${errors.email && "form-control is-invalid"}`} placeholder='.' {...register('email', { required: true, pattern: /^\S+@\S+$/i })} />
                                                 <label htmlFor="">Email*</label>
                                             </div>
                                             {errors.email && <span className='para-sm text-white'>Please Enter a Valid Email</span>}
@@ -163,7 +163,7 @@ export const Contact = () => {
                                         <div className="col-12">
 
                                             <div className="input-container">
-                                                <input type="text" name="website_link" class={`input ${errors.website_link && "form-control is-invalid"}`} placeholder='.' {...register('website_link', { required: false })} />
+                                                <input type="text" name="website_link" value={mail ? mail : ""} class={`input ${errors.website_link && "form-control is-invalid"}`} placeholder='.' {...register('website_link', { required: false })} />
                                                 <label htmlFor="">Website</label>
                                             </div>
 
