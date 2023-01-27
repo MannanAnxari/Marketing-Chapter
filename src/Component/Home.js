@@ -21,14 +21,14 @@ import Brand3 from './assets/Brands/Brand3.png';
 import Brand4 from './assets/Brands/Brand4.png';
 import Brand5 from './assets/Brands/Brand5.png';
 import Brand6 from './assets/Brands/Brand6.png';
-import Brand7 from './assets/Brands/Brand7.png'; 
+import Brand7 from './assets/Brands/Brand7.png';
 import { motion } from 'framer-motion';
 import { Testimonials } from './Testimonials';
 import { MainPortfolio } from './MainPortfolioSingleHome';
 
 export const Home = () => {
 
-    const [email, setEmail] = useState(null)
+    const [email, setEmail] = useState(null);
 
     const settings = {
         slidesToShow: 6,
@@ -59,11 +59,12 @@ export const Home = () => {
                         <div className="mainSlide">
                             <div className="row w-100 h-100">
                                 <div className="col-sm-6 col-8 my-auto p-4">
-                                    <h1 className='mb-3'>Pakistan's First Remote<span>  Based Agency</span></h1>
+                                    <h1 className='mb-3'>Pakistan's First Remote <span> Based Agency</span></h1>
                                     <div className="row w-100 mx-auto">
                                         <div className="col-md-5 px-0 col-12">
 
                                             <input type="email" onChange={(e) => setEmail(e.target.value)} className='form-control shadow-sm d-inline-block text-dark' placeholder='Enter Your Website' />
+
                                         </div>
                                         <div className="col-md-6 px-0 col-12">
                                             <Link className="btn btn-dark py-2 shadow-sm"
@@ -353,7 +354,7 @@ export const Home = () => {
                         <div className="slide"><img alt="" src={Brand4} /></div>
                         <div className="slide"><img alt="" src={Brand5} /></div>
                         <div className="slide"><img alt="" src={Brand6} /></div>
-                        <div className="slide"><img alt="" src={Brand7} /></div> 
+                        <div className="slide"><img alt="" src={Brand7} /></div>
 
                     </Sliderz>
                 </section>
