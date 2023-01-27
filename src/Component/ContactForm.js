@@ -71,11 +71,11 @@ export const ContactForm = ({ action }) => {
                                 <div className="info">
                                     <div className="information mb-4">
                                         <img src={address} className="icon" alt="" />
-                                        <p className='mb-0'>Timber Creek CT Clark Ville, Maryland, US</p>
+                                        <p className='mb-0'> Address Omega Heights, 103, E11/3, Islamabad, Pakistan</p>
                                     </div>
                                     <div className="information mb-4">
                                         <img src={email} className="icon" alt="" />
-                                        <p className='mb-0'>info@mediachapter.com</p>
+                                        <p className='mb-0'>info@marketingchapter.com.pk</p>
                                     </div>
                                     <div className="information mb-4">
                                         <img src={phone} className="icon" alt="" />

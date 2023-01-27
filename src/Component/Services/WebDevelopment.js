@@ -3,10 +3,10 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AppContext } from '../../context/AppContext';
 import { ContactForm } from '../ContactForm';
-import webImg from '../assets/home-slider.png';
+import webImg from '../assets/Illustration-Icon-2.png';
 import tech1 from '../assets/Tech/tech1.png';
 import tech2 from '../assets/Tech/tech2.png';
-import seo from "../assets/Illustration-Icon-2.png";
+import seo from "../assets/banner-2.png";
 import tech3 from '../assets/Tech/tech3.png';
 import tech4 from '../assets/Tech/tech4.png';
 import tech5 from '../assets/Tech/tech5.png';
@@ -32,14 +32,14 @@ export const WebDevelopment = () => {
             <div className="seo image-banner sec ">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center col-6">
+                        <div className="h-100 my-auto d-flex flex-column align-items-start justify-content-center col-6">
                             <h1 className='text-start'>An Energy That Builds  Memorable Brands</h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>
                         </div>
-                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center col-6">
-                            <img src={seo} className="w-100" alt="banner" />
+                        <div className="h-100 my-4 d-flex flex-column align-items-center justify-content-center col-6 text-center">
+                            <img src={seo} alt="banner" />
                         </div>
                     </div>
                 </div>

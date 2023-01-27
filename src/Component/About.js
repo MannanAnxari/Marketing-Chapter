@@ -54,7 +54,7 @@ export const About = () => {
                 <div className="container h-100">
                     <div className="row h-100">
                         <div className="h-100 col-sm-6 d-flex flex-column align-items-start justify-content-center">
-                            <h1 className='text-white text-start'>An Energy That Builds  Memorable Brands</h1>
+                            <h1 className='text-main text-start'>An Energy That Builds  Memorable Brands</h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>
@@ -80,7 +80,7 @@ export const About = () => {
                 <div className="container">
                     <div className="row text-start">
                         <div className="col-md-3 my-md-auto my-3 ">
-                            <h1 className="fs-3 line-height-sm heading">Features that Catch Eyeballs at Glance
+                            <h1 className="fs-3 line-height-sm">Features that Catch Eyeballs at Glance
                             </h1>
                             <p className="para-sm text-muted">It is our features that make us who we are. Take a look below to find out what exactly you need.
                             </p>

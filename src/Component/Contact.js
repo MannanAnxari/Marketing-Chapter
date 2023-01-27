@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import toast from "react-hot-toast";
 import { AppContext } from '../context/AppContext';
+import { useSearchParams } from 'react-router-dom';
 
 export const Contact = () => {
 
@@ -13,6 +14,9 @@ export const Contact = () => {
 
     const { APP_NAME, setTitle, URL } = useContext(AppContext);
     setTitle(`${APP_NAME}Contact`);
+
+    const query = new URLSearchParams(window.location.search);
+    const mail = query.get('email')
 
     const {
         register,
@@ -64,7 +68,7 @@ export const Contact = () => {
                                 </p>
 
 
-                                <div className="info">
+                                {/* <div className="info">
                                     <div className="information mb-4">
                                         <p className='mb-0'><span><b>USA:</b></span><br /> </p>
                                     </div>
@@ -80,18 +84,18 @@ export const Contact = () => {
                                         <img src={phone} className="icon" alt="" />
                                         <p className='mb-0'>+92 333 051 8880</p>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="info">
-                                    <div className="information mb-4">
+                                    {/* <div className="information mb-4">
                                         <p className='mb-0'><span><b>Pakistan:</b></span><br /></p>
-                                    </div>
+                                    </div> */}
                                     <div className="information mb-4">
                                         <img src={address} className="icon" alt="" />
                                         <p className='mb-0'> Address Omega Heights, 103, E11/3, Islamabad, Pakistan</p>
                                     </div>
                                     <div className="information mb-4">
                                         <img src={email} className="icon" alt="" />
-                                        <p className='mb-0'>info@mediachapter.us</p>
+                                        <p className='mb-0'>info@marketingchapter.com.pk</p>
                                     </div>
                                     <div className="information mb-4">
                                         <img src={phone} className="icon" alt="" />
@@ -132,7 +136,7 @@ export const Contact = () => {
                                         <div className="col-md-6">
 
                                             <div className="input-container mb-2">
-                                                <input type="email" name="email" class={`input ${errors.email && "form-control is-invalid"}`} placeholder='.' {...register('email', { required: true, pattern: /^\S+@\S+$/i })} />
+                                                <input type="email" name="email" value={mail ? mail : ""} class={`input ${errors.email && "form-control is-invalid"}`} placeholder='.' {...register('email', { required: true, pattern: /^\S+@\S+$/i })} />
                                                 <label htmlFor="">Email*</label>
                                             </div>
                                             {errors.email && <span className='para-sm text-white'>Please Enter a Valid Email</span>}

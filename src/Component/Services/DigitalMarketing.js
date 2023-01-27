@@ -2,10 +2,10 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { AppContext } from '../../context/AppContext';
-import digital from "../assets/digitalmarketing.png";
+import digital from "../assets/Illustration-Icon-3.png";
 import { ContactForm } from '../ContactForm';
 import { SkillsCircle } from '../SkillsCircle';
-import seo from "../assets/Illustration-Icon-3.png";
+import seo from "../assets/banner-1.png";
 
 
 export const DigitalMarketing = () => {
@@ -13,12 +13,12 @@ export const DigitalMarketing = () => {
     setTitle(`${APP_NAME}Digital Marketing`);
     return (
         <motion.div initial={{ transition: { duration: 1 }, opacity: 0 }} animate={{ transition: { duration: 1 }, opacity: 1 }} exit={{ transition: { duration: 1 }, opacity: 0 }}>
-            
-            
+
+
             <div className="seo image-banner sec ">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="h-100 my-auto col-sm-7 d-flex flex-column align-items-start justify-content-center col-7">
+                        <div className="h-100 my-auto d-flex flex-column align-items-start justify-content-center col-6">
                             <h1 className='text-start'>Drive More Leads, More
                                 Revenue with Our
                                 Digital Marketing Services</h1>
@@ -26,8 +26,8 @@ export const DigitalMarketing = () => {
                                 GET A QUOTE
                             </Link>
                         </div>
-                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center col-5">
-                            <img src={seo} className="w-100" alt="banner" />
+                        <div className="h-100 my-4 d-flex flex-column align-items-center justify-content-center col-6 text-center">
+                            <img src={seo} alt="banner" />
                         </div>
                     </div>
                 </div>

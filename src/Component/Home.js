@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
@@ -40,6 +40,8 @@ import { MainPortfolio } from './MainPortfolioSingleHome';
 
 export const Home = () => {
 
+    const [email, setEmail] = useState(null)
+
     const settings = {
         slidesToShow: 6,
         slidesToScroll: 1,
@@ -63,27 +65,34 @@ export const Home = () => {
     return (
         <motion.div initial={{ transition: { duration: 1 }, opacity: 0 }} animate={{ transition: { duration: 1 }, opacity: 1 }} exit={{ transition: { duration: 1 }, opacity: 0 }}>
             <div className="sliderMain position-relative">
-                <CarouselProvider className='slider container bannerSlider'
-                    naturalSlideWidth={100}
-                    naturalSlideHeight={50}
-                    totalSlides={6}
-                    isPlaying={true}
-                    interval={5000}
+                <div className='slider container bannerSlider'
                 >
-                    <Slider>
-                        <Slide index={0} className="mainSlide">
+                    <div>
+                        <div className="mainSlide">
                             <div className="row w-100 h-100">
                                 <div className="col-sm-6 col-8 my-auto p-4">
-
                                     <h1 className='mb-3'>Pakistan's First Remote<span>  Based Agency</span></h1>
-                                    <button className="btn btn-dark">
-                                        GET A QUOTE
-                                    </button>
+                                    <div className="row w-100 mx-auto">
+                                        <div className="col-md-6 px-0 col-12">
+
+                                            <input type="email" onChange={(e) => setEmail(e.target.value)} className='form-control shadow-sm d-inline-block text-dark' placeholder='Send me a Proposal' />
+                                        </div>
+                                        <div className="col-md-4 px-0 col-12">
+                                            <Link className="btn btn-dark py-2 shadow-sm"
+                                                to={{
+                                                    pathname: "/contact",
+                                                    search: `?email=${email}`,
+                                                    state: { fromDashboard: true }
+                                                }}
+                                            >GET A QUOTE</Link>
+                                        </div>
+
+                                    </div>
                                 </div>
                                 <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide1} alt="slide" className='w-100' /></div>
                             </div>
-                        </Slide>
-                        <Slide index={3} className="mainSlide">
+                        </div>
+                        {/* <div className="mainSlide">
                             <div className="row w-100 h-100">
                                 <div className="col-sm-6 col-8 my-auto p-4">
 
@@ -94,8 +103,8 @@ export const Home = () => {
                                 </div>
                                 <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide2} alt="slide" className='w-100' /></div>
                             </div>
-                        </Slide>
-                        <Slide index={1} className="mainSlide">
+                        </div> */}
+                        {/* <Slide index={1} className="mainSlide">
                             <div className="row w-100 h-100">
                                 <div className="col-sm-6 col-8 my-auto p-4">
 
@@ -105,7 +114,8 @@ export const Home = () => {
                                     </button>
                                 </div>
                                 <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide0} alt="slide" className='w-100' /></div>
-                            </div></Slide>
+                            </div>
+                        </Slide>
 
 
                         <Slide index={4} className="mainSlide">
@@ -145,11 +155,11 @@ export const Home = () => {
                                 </div>
                                 <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide4} alt="slide" className='w-100' /></div>
                             </div>
-                        </Slide>
-                    </Slider>
-                    <ButtonBack>Back</ButtonBack>
-                    <ButtonNext>Next</ButtonNext>
-                </CarouselProvider>
+                        </Slide> */}
+                    </div>
+                    {/* <ButtonBack>Back</ButtonBack>
+                    <ButtonNext>Next</ButtonNext> */}
+                </div>
             </div>
             {/* <div className="sec p-5 home">
                 <div className="container">
@@ -371,7 +381,7 @@ export const Home = () => {
                 </section>
             </div>
             <Testimonials />
-            <div className="sec py-5">
+            {/* <div className="sec py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col text-center">
@@ -379,7 +389,7 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </motion.div>
     )
 }

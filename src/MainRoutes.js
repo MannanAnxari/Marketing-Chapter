@@ -48,7 +48,7 @@ export const MainRoutes = () => {
                 <Routes key={pathname} location={pathname}>
                     <Route path="/" element={<Home />} />
                     <Route path="/graphic-design" element={<Graphics />} />
-                    {/* <Route path="/about" element={<About />} /> */}
+                    <Route path="/about" element={<About />} />
                     <Route path="/product" element={<Product />} />
                     <Route path="/web-development" element={<WebDevelopment />} />
                     <Route path="/seo" element={<Seo />} />

@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import content from "../assets/content.png";
+import content from "../assets/Illustration-Icon-4.png";
 import { AppContext } from '../../context/AppContext';
 import { ContactForm } from '../ContactForm';
 import { SkillsCircle } from '../SkillsCircle';
-import seo from "../assets/Illustration-Icon-4.png";
+import seo from "../assets/banner-6.png";
 
 
 export const ContentWriting = () => {
@@ -13,18 +13,18 @@ export const ContentWriting = () => {
     setTitle(`${APP_NAME}Content Writing`);
     return (
         <motion.div initial={{ transition: { duration: 1 }, opacity: 0 }} animate={{ transition: { duration: 1 }, opacity: 1 }} exit={{ transition: { duration: 1 }, opacity: 0 }}>
-         
+
             <div className="seo image-banner sec ">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="h-100 my-auto col-sm-7 col-6 d-flex flex-column align-items-start justify-content-center">
+                        <div className="h-100 my-auto d-flex flex-column align-items-start justify-content-center col-6">
                             <h1 className='text-start'>An Energy That Builds Memorable Brands</h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>
                         </div>
-                        <div className="h-100 my-4 col-sm-5 d-flex flex-column align-items-start justify-content-center col-6">
-                            <img src={seo} className="w-100" alt="banner" />
+                        <div className="h-100 my-4 d-flex flex-column align-items-center justify-content-center col-6 text-center">
+                            <img src={seo} alt="banner" />
                         </div>
                     </div>
                 </div>

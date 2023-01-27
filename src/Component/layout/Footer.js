@@ -55,7 +55,7 @@ export const Footer = () => {
                     <div className="col-md-2 my-md-0 my-3">
                         <h5>SITE MAP</h5>
                         <ul className="nav flex-column mt-3">
-                            <li className="nav-item mb-2"><Link to="about" className="nav-link p-0 para-sm">ABOUT</Link></li>
+                            <li className="nav-item mb-2"><Link to="about" className="nav-link p-0 para-sm">ABOUT US</Link></li>
                             <li className="nav-item mb-2"><Link to="portfolio" className="nav-link p-0 para-sm">PORTFOLIO</Link></li>
                             <li className="nav-item mb-2"><Link to="blog" className="nav-link p-0 para-sm">BLOGS</Link></li>
                             <li className="nav-item mb-2"><Link to="contact" className="nav-link p-0 para-sm">CONTACT</Link></li>
@@ -105,10 +105,10 @@ export const Footer = () => {
                 </div>
 
             </div>
-            <div className="pt-3 mt-4 border-top para-xs text-center bg-white">
+            {/* <div className="pt-3 mt-4 border-top para-xs text-center bg-white">
                 <p className='mb-0 pb-3 text-black'>Marketing Chapter is a registered trademark. Marketing Chapter is registered in Wyoming, United States. Company no: 45999-0038.
                 </p>
-            </div>
+            </div> */}
 
         </footer>
     )
