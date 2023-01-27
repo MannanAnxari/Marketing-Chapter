@@ -114,7 +114,7 @@ export const Seo = () => {
                                 Link Building
                             </h1>
                             <p className="para-sm text-muted">
-                                Getting links from high-ranking and authoritative sites is a key to rank higher on search engine result pages (SERPs). Link builders at Media Chapter always generate powerful links.
+                                Getting links from high-ranking and authoritative sites is a key to rank higher on search engine result pages (SERPs). Link builders at Marketing Chapter always generate powerful links.
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5 position-relative">

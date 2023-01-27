@@ -40,7 +40,7 @@ export const DigitalMarketing = () => {
                             <h1 className="fs-4 heading-sm line-height-sm fw-normal">Elevate Your Brand with Our Digital Marketing Services
                             </h1>
                             <p className="para-sm text-muted my-4">
-                                Media Chapter is the digital marketing agency that can help you bring traffic to your newly-launched startup and convert them into qualified leads or potential customers. Get your hands on our digital marketing services today and double your business.
+                                Marketing Chapter is the digital marketing agency that can help you bring traffic to your newly-launched startup and convert them into qualified leads or potential customers. Get your hands on our digital marketing services today and double your business.
                             </p>
                             <p className="para-sm d-flex gap-2 align-items-center my-2">
                                 <i className="fa-regular fa-circle-dot text-danger"></i>Drive traffic
@@ -88,7 +88,7 @@ export const DigitalMarketing = () => {
                                 Social Media Marketing (SMM)
                             </h1>
                             <p className="para-sm text-muted">
-                                At Media Chapter, we create social media campaigns that drive organic traffic to your
+                                At Marketing Chapter, we create social media campaigns that drive organic traffic to your
                                 business and grow your brand effectively.
                             </p>
                         </div>

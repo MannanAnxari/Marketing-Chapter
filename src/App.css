@@ -315,6 +315,10 @@ footer {
     font-size: 14px;
   }
 
+  .about.sec img {
+    width: 100% !important;
+  }
+
   .sliderMain .horizontalSlider___281Ls,
   .sliderMain,
   .seo {
@@ -5535,6 +5539,13 @@ h6.fourty-space {
 .seo {
 
   background-position-x: 84%;
+}
+
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 1300px) {

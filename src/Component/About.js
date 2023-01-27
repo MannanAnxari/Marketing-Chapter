@@ -9,6 +9,7 @@ import Video from "./assets/about.mp4";
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ContactForm } from './ContactForm';
+import seo from "./assets/banner-2.png";
 
 
 export const About = () => {
@@ -53,11 +54,14 @@ export const About = () => {
             <div className="about sec image-banner">
                 <div className="container h-100">
                     <div className="row h-100">
-                        <div className="h-100 col-sm-6 d-flex flex-column align-items-start justify-content-center">
+                        <div className="h-100 my-auto col-6 d-flex flex-column align-items-start justify-content-center">
                             <h1 className='text-main text-start'>An Energy That Builds  Memorable Brands</h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>
+                        </div>
+                        <div className="col-6">
+                            <img src={seo} alt="About" />
                         </div>
                     </div>
                 </div>

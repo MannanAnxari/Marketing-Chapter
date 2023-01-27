@@ -21,19 +21,7 @@ import Brand3 from './assets/Brands/Brand3.png';
 import Brand4 from './assets/Brands/Brand4.png';
 import Brand5 from './assets/Brands/Brand5.png';
 import Brand6 from './assets/Brands/Brand6.png';
-import Brand7 from './assets/Brands/Brand7.png';
-import Brand8 from './assets/Brands/Brand8.png';
-import Brand9 from './assets/Brands/Brand9.png';
-import Brand0 from './assets/Brands/Brand0.png';
-import Brand10 from './assets/Brands/Brand10.png';
-import Brand11 from './assets/Brands/Brand11.png';
-import Brand12 from './assets/Brands/Brand12.png';
-import Brand13 from './assets/Brands/Brand13.png';
-import Brand14 from './assets/Brands/Brand14.png';
-import Brand15 from './assets/Brands/Brand15.png';
-import Brand16 from './assets/Brands/Brand16.png';
-import Brand17 from './assets/Brands/Brand17.png';
-import TrustPiolot from './assets/trustpilot.png';
+import Brand7 from './assets/Brands/Brand7.png'; 
 import { motion } from 'framer-motion';
 import { Testimonials } from './Testimonials';
 import { MainPortfolio } from './MainPortfolioSingleHome';
@@ -365,17 +353,7 @@ export const Home = () => {
                         <div className="slide"><img alt="" src={Brand4} /></div>
                         <div className="slide"><img alt="" src={Brand5} /></div>
                         <div className="slide"><img alt="" src={Brand6} /></div>
-                        <div className="slide"><img alt="" src={Brand7} /></div>
-                        <div className="slide"><img alt="" src={Brand8} /></div>
-                        <div className="slide"><img alt="" src={Brand9} /></div>
-                        <div className="slide"><img alt="" src={Brand10} /></div>
-                        <div className="slide"><img alt="" src={Brand11} /></div>
-                        <div className="slide"><img alt="" src={Brand12} /></div>
-                        <div className="slide"><img alt="" src={Brand13} /></div>
-                        <div className="slide"><img alt="" src={Brand14} /></div>
-                        {/* <div className="slide"><img alt="" src={Brand15} /></div> */}
-                        <div className="slide"><img alt="" src={Brand16} /></div>
-                        <div className="slide"><img alt="" src={Brand17} /></div>
+                        <div className="slide"><img alt="" src={Brand7} /></div> 
 
                     </Sliderz>
                 </section>

@@ -14,7 +14,7 @@ export const ContentWriting = () => {
     return (
         <motion.div initial={{ transition: { duration: 1 }, opacity: 0 }} animate={{ transition: { duration: 1 }, opacity: 1 }} exit={{ transition: { duration: 1 }, opacity: 0 }}>
 
-            <div className="seo image-banner sec ">
+            <div className="seo image-banner sec">
                 <div className="container h-100">
                     <div className="row h-100">
                         <div className="h-100 my-auto d-flex flex-column align-items-start justify-content-center col-6">
@@ -38,7 +38,7 @@ export const ContentWriting = () => {
 
                             </h1>
                             <p className="para-sm text-muted my-4">
-                                Fresh, original, and flawless content can help you win clients and meet your goals. Get in touch with professional writers at Media Chapter today and produce the best content for your brand.
+                                Fresh, original, and flawless content can help you win clients and meet your goals. Get in touch with professional writers at Marketing Chapter today and produce the best content for your brand.
                             </p>
                             <p className="para-sm d-flex gap-2 align-items-center my-2">
                                 <i className="fa-regular fa-circle-dot text-danger"></i>Customer-focused Content

@@ -47,7 +47,7 @@ export const Footer = () => {
                 <div className="row">
                     <div className="col-md-5 my-md-0 my-3">
                         <Link to="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                            <img src={Logo} className={'w-75'} alt="" />
+                            <img src={Logo} style={{ width: 164 }} alt="" />
                         </Link>
                         <p className="para-sm">Marketing Chapter is a team of dedicated designers, developers, content creators, SEO specialists, digital marketers, and other experts who share a common passion for great brands</p>
                     </div>
