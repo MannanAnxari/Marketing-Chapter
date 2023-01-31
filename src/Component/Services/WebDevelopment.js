@@ -62,10 +62,8 @@ export const WebDevelopment = () => {
 
                                 <div class="single-about">
 
-                                    <p>Having worked with startups for 10+ years and launched over 300 successful products, we offer all the necessary expertise to bring your bold idea to market. Our expert team for web development makes sure to give you the expected project that you require and also maintain the quality of your project or product.
-                                        <br />
-                                        <br />
-                                        We give the best solutions to your any problem that you face. We make sure to provide the tech stack required according to the requirement of your product or project.</p>
+                                    <p>With 10+ years of experience working with startups and launching over 300 successful products, our team offers the necessary expertise to bring your innovative idea to market. Our web development experts ensure you receive the desired outcome and maintain the highest quality. <br /> <br /> We provide tailored technical solutions to meet your specific project or product needs and are dedicated to addressing any challenges you may face.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -79,8 +77,8 @@ export const WebDevelopment = () => {
                         <div class="row">
                             <div class="head col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h1 className=' heading pb-2'>Our Key Values</h1>
-                                <p class="para">Core values are critical if you want to create a long-lasting, successful,
-                                    and motivating place to work.
+                                <p class="para">Essential for building a successful, lasting, and inspiring work environment.
+
                                 </p>
                             </div>
                         </div>

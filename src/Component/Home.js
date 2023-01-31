@@ -58,15 +58,15 @@ export const Home = () => {
                     <div>
                         <div className="mainSlide">
                             <div className="row w-100 h-100">
-                                <div className="col-sm-6 col-8 my-auto p-4">
+                                <div className="col-sm-6 col-7 my-auto p-4 pt-md-4 pt-0">
                                     <h1 className='mb-3'>Pakistan's First Remote <span> Based Agency</span></h1>
                                     <div className="row w-100 mx-auto">
-                                        <div className="col-md-5 px-0 col-12">
+                                        <div className="col-md-5 px-0 col-10">
 
                                             <input type="email" onChange={(e) => setEmail(e.target.value)} className='form-control shadow-sm d-inline-block text-dark' placeholder='Enter Your Website' />
 
                                         </div>
-                                        <div className="col-md-6 px-0 col-12">
+                                        <div className="col-md-6 px-0 col-10">
                                             <Link className="btn btn-dark py-2 shadow-sm"
                                                 to={{
                                                     pathname: "/contact",
@@ -78,7 +78,7 @@ export const Home = () => {
 
                                     </div>
                                 </div>
-                                <div className="col-sm-6 col-4 sliderImage my-auto p-sm-4 p-1"><img src={slide1} alt="slide" className='w-100' /></div>
+                                <div className="col-sm-6 col-5 sliderImage my-auto p-sm-4 p-0"><img src={slide1} alt="slide" className='w-100' /></div>
                             </div>
                         </div>
                         {/* <div className="mainSlide">
@@ -207,7 +207,7 @@ export const Home = () => {
                             <h1 className="heading">Our Services
                             </h1>
                             <p className="my-3 text-muted para-sm">
-                                From branding strategies and graphic design to web development and SEO, our masterful team cover everything with perfection to help you transform your visionary company into a reality.
+                                Our expert team excels in all aspects of branding, from strategy and graphic design to web development and SEO, ensuring a seamless transformation of your vision into a successful company.
                             </p>
                         </div>
                         <div className="col-md-4 col-12 my-3 m-auto">
@@ -217,7 +217,8 @@ export const Home = () => {
                                     <img src={card0} draggable={false} className={'w-card'} alt="card" />
                                 </div>
                                 <h1 className='my-3  fs-3 text-start fw-normal'>Graphic Design</h1>
-                                <p className='mb-0 para px-0 text-start'>Whether you’re looking for an out-of-the-box logo design or game-changing stationery for your business, the top-rated designers at MediaChapter can do it for you. </p>
+                                <p className='mb-0 para px-0 text-start'>The highly-rated designers at Marketing Chapter can create unique logo designs and impactful business stationery to meet your needs.
+                                </p>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
@@ -228,7 +229,8 @@ export const Home = () => {
                                     <img src={card1} draggable={false} className={'w-card'} alt="card" />
                                 </div>
                                 <h1 className='my-3  fs-3 text-start fw-normal'> Web Development			</h1>
-                                <p className='mb-0 para px-0'> text-startWant a website where people come, stay, and take desired actions? You are at the right place. Get in touch with us now to get a workable website for your business.</p>
+                                <p className='mb-0 para px-0'>  Marketing Chapter's top-rated designers provide custom logo and stationery design solutions for your business.
+                                </p>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
@@ -239,7 +241,8 @@ export const Home = () => {
                                     <img src={card2} draggable={false} className={'w-card'} alt="card" />
                                 </div>
                                 <h1 className='my-3  fs-3 text-start fw-normal'> 		Digital Marketing	</h1>
-                                <p className='mb-0 para px-0 text-start'>Whether you’re a startup or a settled company, our profound digital experts will come up with innovative strategies to drive new clients to your website.</p>
+                                <p className='mb-0 para px-0 text-start'>Our experienced digital specialists develop innovative strategies to drive new clients to your website, catering to both startups and established companies.
+                                </p>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
@@ -250,7 +253,8 @@ export const Home = () => {
                                     <img src={card3} draggable={false} className={'w-card'} alt="card" />
                                 </div>
                                 <h1 className='my-3  fs-3 text-start fw-normal'> 		  Content Writing			</h1>
-                                <p className='mb-0 para px-0'> text-startNo matter how good your logo or website is, you can’t increase engagement without creating high-quality, fresh, and unique content. At MediaChapter, we have creative writers who can do the job for you.</p>
+                                <p className='mb-0 para px-0'>  At Marketing Chapter, our creative writers produce high-quality, unique content to increase engagement, essential for the success of your logo and website.
+                                </p>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
@@ -261,7 +265,8 @@ export const Home = () => {
                                     <img src={card4} draggable={false} className={'w-card'} alt="card" />
                                 </div>
                                 <h1 className='my-3  fs-3 text-start fw-normal'> 		  SEO			</h1>
-                                <p className='mb-0 para px-0'> text-startWant a website where people come, stay, and take desired actions? You are at the right place. Get in touch with us now to get a workable website for your business.</p>
+                                <p className='mb-0 para px-0'>Get a high-performing website that encourages visitors to stay and take desired actions. Contact us now to improve your online presence for your business.
+                                </p>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
@@ -277,7 +282,8 @@ export const Home = () => {
                                 Our Recent Works
                             </h1>
                             <p className="para-sm text-muted my-3">
-                                We create client-focused websites that generate desired results. Transform your digital presence with the help of our professional web developers.
+                            Our professional web developers design results-driven websites tailored to meet your specific needs. Enhance your digital presence with our expert web development services.
+
                             </p>
                         </div>
                     </div>

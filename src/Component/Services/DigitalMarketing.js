@@ -38,7 +38,8 @@ export const DigitalMarketing = () => {
                             <h1 className="fs-4 heading-sm line-height-sm fw-normal">Elevate Your Brand with Our Digital Marketing Services
                             </h1>
                             <p className="para-sm text-muted my-4">
-                                Marketing Chapter is the digital marketing agency that can help you bring traffic to your newly-launched startup and convert them into qualified leads or potential customers. Get your hands on our digital marketing services today and double your business.
+                            Our digital marketing services include search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, email marketing, and more. We will work with you to create a customized digital marketing plan that meets your specific needs and goals. With our help, you can reach your target audience, build brand awareness, and grow your business.
+
                             </p>
                             <p className="para-sm d-flex gap-2 align-items-center my-2">
                                 <i className="fa-regular fa-circle-dot text-danger"></i>Drive traffic

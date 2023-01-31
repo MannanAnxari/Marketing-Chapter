@@ -16,7 +16,8 @@ export const Seo = () => {
                 <div className="container h-100">
                     <div className="row h-100">
                         <div className="h-100 my-auto d-flex flex-column align-items-start justify-content-center col-6">
-                            <h1 className='text-start'>Make Your brand recognizable with our astounding <span> seo service</span></h1>
+                            <h1 className='text-start'> Increase brand recognition with our exceptional
+                                <span>  SEO services.</span></h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>
@@ -60,12 +61,11 @@ export const Seo = () => {
                     <div className="row text-start">
                         <div className="col-md-6 my-md-auto my-3">
                             <h1 className="heading">SEO</h1>
-                            <h1 className="fs-4 heading line-height-sm fw-normal">Boost Your Website Ranking with Advanced SEO Services
+                            <h1 className="fs-4 line-height-sm fw-normal">Boost Your Website Ranking with Advanced SEO Services
                             </h1>
                             <p className="para-sm text-muted my-4">
-                                Want your website to appear on Google’s first page when someone
-                                searches the keyword relevant to your business? You can achieve
-                                this feat with our result-oriented SEO services.
+                                Improve your website's ranking with our advanced SEO services. Get first page visibility on Google for relevant keywords and increase leads and sales.
+
                             </p>
                             <p className="para-sm d-flex gap-2 align-items-center my-2">
                                 <i className="fa-regular fa-circle-dot text-danger"></i>Boost Ranking
@@ -86,58 +86,59 @@ export const Seo = () => {
             <div className="sec py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-8 mx-auto">
-                            <h2 className="heading fs-2">
-                                Our Digital Marketing Services Cover Everything
+                        <div className="col-md-10 mx-auto">
+                            <h2 className="heading">
+                                Our Seo Services Cover Everything
                             </h2>
                             <p className="para-sm text-muted">
-                                We help startups rise as industry leaders with our innovative digital marketing strategies
-                                and flawless execution. Take a look below and find out what exactly you need
+                                Elevate your startup to industry leader status with our cutting-edge digital marketing strategies and seamless execution. Discover what you need here.
+
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5 position-relative">
-                            <SkillsCircle value={96} />
+                            <SkillsCircle value={49} />
 
                             <h1 className="heading fs-4">
-                                Keyword Research
+                                Targeted Keyword Research
+
                             </h1>
                             <p className="para-sm text-muted">
-                                We have a dedicated research team that can help you find relevant and high-volume keywords googled by your target audience to find products and services same as provided by you.
+                                Our dedicated research team finds high-volume, relevant keywords searched by your target audience to increase website traffic and boost sales.
+
+                            </p>
+                        </div>
+                        <div className="col-md-6 my-3 px-md-5 position-relative">
+                            <SkillsCircle value={59} />
+
+                            <h1 className="heading fs-4">
+                                Powerful Link Building
+
+                            </h1>
+                            <p className="para-sm text-muted">
+                                Our dedicated research team finds high-volume, relevant keywords searched by your target audience to increase website traffic and boost sales.
+
+                            </p>
+                        </div>
+                        <div className="col-md-6 my-3 px-md-5 position-relative">
+                            <SkillsCircle value={69} />
+
+                            <h1 className="heading fs-4">
+                                Local Search
+                            </h1>
+                            <p className="para-sm text-muted">
+                                Our local search services can help you improve your online visibility for local searches and attract more local customers to your business.
+
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5 position-relative">
                             <SkillsCircle value={46} />
 
                             <h1 className="heading fs-4">
-                                Link Building
-                            </h1>
-                            <p className="para-sm text-muted">
-                                Getting links from high-ranking and authoritative sites is a key to rank higher on search engine result pages (SERPs). Link builders at Marketing Chapter always generate powerful links.
-                            </p>
-                        </div>
-                        <div className="col-md-6 my-3 px-md-5 position-relative">
-                            <SkillsCircle value={36} />
-
-                            <h1 className="heading fs-4">
-                                Local Search
-                            </h1>
-                            <p className="para-sm text-muted">
-                                You can’t only drive organic audience to your
-                                website but also bring foot traffic to your physical
-                                store with our smart SEO services.
-                            </p>
-                        </div>
-                        <div className="col-md-6 my-3 px-md-5 position-relative">
-                            <SkillsCircle value={56} />
-
-                            <h1 className="heading fs-4">
                                 eCommerce SEO
                             </h1>
                             <p className="para-sm text-muted">
-                                Nobody will come across your online store until it
-                                starters appearing on Google’s first page. Bring your
-                                eCommerce website in the eyes of searchers
-                                with our top-notch SEO services.
+                                Our local search services can help you improve your online visibility for local searches and attract more local customers to your business.
+
                             </p>
                         </div>
                     </div>

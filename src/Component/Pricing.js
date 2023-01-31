@@ -15,7 +15,7 @@ export const Pricing = () => {
                                 Buy Packages
                             </h1>
                             <p className="para-sm fs-6">
-                                Take a look at our affordable packages and choose one that suits your budget and needs.
+                            Our team is always ready to create a customized package that fits your specific requirements, if you don’t find the right fit in our existing packages. Contact us to discuss your project.
                             </p>
                         </div>
                     </div>

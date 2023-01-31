@@ -73,7 +73,8 @@ export const About = () => {
                         <div className="col-md-6 my-md-auto my-3">
                             <h1 className="heading">Who We Are
                             </h1>
-                            <p className="para-sm text-muted">MediaChapter is a team of dedicated designers, developers, content creators, SEO specialists, digital marketers, and other experts who share a common passion for great brands. We work together to create remarkable brand experiences that give businesses a unique voice and help them stand out in the marketplace. During the venture, from small-scale startups to industry leaders, we have helped all kinds of brands to build their voice and stand out.
+                            <p className="para-sm text-muted">At Marketing Chapter, our team of designers, developers, content creators, SEO specialists, digital marketers, and other experts share a passion for creating exceptional brands. Together, we craft remarkable brand experiences that set businesses apart and give them a distinct voice in the market. From startups to established industry leaders, we've helped a diverse range of brands establish their presence and stand out.
+
                             </p>
                             <Link to={'/portfolio'} className="btn btn-main">view portfolio</Link>
                         </div>
@@ -97,7 +98,8 @@ export const About = () => {
                                         <div className="cardImg">
                                             <img src={number4} draggable={false} className={'w-card'} alt="card" />
                                         </div>
-                                        <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">Logo Design</a><p className="para-sm text-muted">At MediaChapter, we have designers who can create a striking custom logo design for your business, giving your brand an identity that it needs to stand out in the competitive market.</p>
+                                        <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">Logo Design</a><p className="para-sm text-muted">Marketing Chapter's designers create custom logo designs that give your brand a unique identity and make it stand out in the competitive market.
+</p>
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +108,8 @@ export const About = () => {
                                         <div className="cardImg">
                                             <img src={number3} draggable={false} className={'w-card'} alt="card" />
                                         </div>
-                                        <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">Web Development</a><p className="para-sm text-muted">A good website is speedy, responsive, and user-friendly. Our developers are expert in building websites that contains all these elements.</p>
+                                        <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">Web Development</a><p className="para-sm text-muted">Our expert developers create fast, responsive, and user-friendly websites to provide a seamless experience for your audience.
+</p>
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +118,8 @@ export const About = () => {
                                         <div className="cardImg">
                                             <img src={number2} draggable={false} className={'w-card'} alt="card" />
                                         </div>
-                                        <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">SEO</a><p className="para-sm text-muted">SEO specialists at MediaChapter create strategies that boost website traffic and improve its ranking in Google’s search results.</p>
+                                        <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">SEO</a><p className="para-sm text-muted">Our expert developers create fast, responsive, and user-friendly websites to provide a seamless experience for your audience.
+</p>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +129,8 @@ export const About = () => {
                                             <img src={number1} draggable={false} className={'w-card'} alt="card" />
                                         </div>
                                         <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">Stationery Design
-                                        </a><p className="para-sm text-muted">Apart from logos, our skilled designers are also specialized in creating the alluring stationery design, including flyers, brochures, packaging, banners, posters, and more.</p>
+                                        </a><p className="para-sm text-muted">Our expert developers create fast, responsive, and user-friendly websites to provide a seamless experience for your audience.
+</p>
                                         </div>
                                     </div>
                                 </div>
