@@ -311,9 +311,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .sec h1 {
-    font-size: 14px;
-  }
+  /* .sec h1 {
+    font-size: 22px;
+  } */
 
   .about.sec img {
     width: 100% !important;
