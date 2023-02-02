@@ -62,7 +62,7 @@ export const MainRoutes = () => {
                     <Route path="/register" element={!user ? <Register /> : <NotFound />} />
                     <Route path="/terms-conditions" element={<TermsNConditions />} />
                     <Route path="/privacy-policy" element={<Privacy />} />
-                    <Route path="/pricing" element={<Pricing />} />
+                    {/* <Route path="/pricing" element={<Pricing />} /> */}
                     <Route path="/verify" element={user && user.data.is_varified === null ? <Verify /> : <NotFound />} />
                     <Route path="/blog/:singleBlog" element={<BlogDetails />} />
                     <Route element={<PrivateRoutes />}>

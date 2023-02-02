@@ -29,7 +29,7 @@ export const ContentWriting = () => {
                     </div>
                 </div>
             </div>
-            <div className="sec py-5">
+            <div className="sec py-5 aligned-sec">
                 <div className="container">
                     <div className="row text-start">
                         <div className="col-md-6 my-md-auto my-3">
@@ -70,7 +70,7 @@ export const ContentWriting = () => {
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5">
-                            <SkillsCircle value={80} />
+                            <SkillsCircle value={73} />
                             <h1 className="heading fs-4">
                                 Web Content
                             </h1>
@@ -94,7 +94,7 @@ export const ContentWriting = () => {
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5">
-                            <SkillsCircle value={95} />
+                            <SkillsCircle value={75} />
                             <h1 className="heading fs-4">
                                 Press Release
                             </h1>
@@ -106,7 +106,7 @@ export const ContentWriting = () => {
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5">
-                            <SkillsCircle value={80} />
+                            <SkillsCircle value={72} />
                             <h1 className="heading fs-4">
                                 Social Media Content
                             </h1>

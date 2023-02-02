@@ -30,7 +30,7 @@ export const Graphics = () => {
                     </div>
                 </div>
             </div>
-            <div className="sec py-md-5 py-3">
+            <div className="sec py-md-5 py-3 graphic">
                 <div class="container">
                     <div class="row align-items-center text-start">
                         <div class="col-xl-6 col-lg-7 col-md-8">
@@ -38,6 +38,7 @@ export const Graphics = () => {
                             <div class="about-img about-img1  ">
                                 <img src={webImg} alt="" />
                             </div>
+
                         </div>
                         <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-6 ">
                             <div class="about-caption about-caption1">
@@ -45,7 +46,9 @@ export const Graphics = () => {
                                 <div class="section-tittle mb-30">
                                     <h2 className='text-start ps-0 '>Graphics Designing<br /></h2>
                                 </div>
-
+                                <div class="about-img about-img1  ">
+                                    <img src={webImg} alt="" />
+                                </div>
                                 <div class="single-about">
 
                                     <p>Having worked with startups for 10+ years and launched over 300 successful products, we offer all the necessary expertise to bring your bold idea to market. Our expert team for web development makes sure to give you the expected project that you require and also maintain the quality of your project or product.

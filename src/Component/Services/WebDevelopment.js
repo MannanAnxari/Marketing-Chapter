@@ -44,27 +44,32 @@ export const WebDevelopment = () => {
                     </div>
                 </div>
             </div>
-            <div className="sec py-md-5 py-3">
+            <div className="sec py-md-5 py-3 graphic">
                 <div class="container">
                     <div class="row align-items-center text-start">
+
+
+
                         <div class="col-xl-6 col-lg-7 col-md-8">
 
                             <div class="about-img about-img1  ">
                                 <img src={webImg} alt="" />
                             </div>
+
                         </div>
                         <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-6 ">
                             <div class="about-caption about-caption1">
 
                                 <div class="section-tittle mb-30">
-                                    <h2 className='text-start ps-0 '> WEB DEVELOPMENT<br /></h2>
+                                    <h2 className='text-start ps-0 '>WEB DEVELOPMENT<br /></h2>
                                 </div>
-
+                                <div class="about-img about-img1  ">
+                                    <img src={webImg} alt="" />
+                                </div>
                                 <div class="single-about">
 
                                     <p>With 10+ years of experience working with startups and launching over 300 successful products, our team offers the necessary expertise to bring your innovative idea to market. Our web development experts ensure you receive the desired outcome and maintain the highest quality. <br /> <br /> We provide tailored technical solutions to meet your specific project or product needs and are dedicated to addressing any challenges you may face.
-                                    </p>
-                                </div>
+                                    </p> </div>
                             </div>
                         </div>
                     </div>

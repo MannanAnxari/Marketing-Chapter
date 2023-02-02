@@ -19,7 +19,7 @@ export const DigitalMarketing = () => {
                 <div className="container h-100">
                     <div className="row h-100">
                         <div className="h-100 my-auto d-flex flex-column align-items-start justify-content-center col-6">
-                        <h1 className='mb-3 text-capitalize text-start'>Drive more Leads, <br />more revenue with our <span> digital marketing services</span></h1>
+                            <h1 className='mb-3 text-capitalize text-start'>Drive more Leads, <br />more revenue with our <span> digital marketing services</span></h1>
                             <Link to={'/contact'} className="btn btn-dark">
                                 GET A QUOTE
                             </Link>
@@ -30,7 +30,7 @@ export const DigitalMarketing = () => {
                     </div>
                 </div>
             </div>
-            <div className="sec py-5">
+            <div className="sec py-5 aligned-sec">
                 <div className="container">
                     <div className="row text-start">
                         <div className="col-md-6 my-md-auto my-3">
@@ -38,7 +38,7 @@ export const DigitalMarketing = () => {
                             <h1 className="fs-4 heading-sm line-height-sm fw-normal">Elevate Your Brand with Our Digital Marketing Services
                             </h1>
                             <p className="para-sm text-muted my-4">
-                            Our digital marketing services include search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, email marketing, and more. We will work with you to create a customized digital marketing plan that meets your specific needs and goals. With our help, you can reach your target audience, build brand awareness, and grow your business.
+                                Our digital marketing services include search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, email marketing, and more. We will work with you to create a customized digital marketing plan that meets your specific needs and goals. With our help, you can reach your target audience, build brand awareness, and grow your business.
 
                             </p>
                             <p className="para-sm d-flex gap-2 align-items-center my-2">
@@ -71,7 +71,7 @@ export const DigitalMarketing = () => {
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5">
-                            <SkillsCircle value={70} />
+                            <SkillsCircle value={73} />
                             <h1 className="heading fs-4">
                                 Search Engine Optimization (SEO)
                             </h1>
@@ -82,7 +82,7 @@ export const DigitalMarketing = () => {
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5">
-                            <SkillsCircle value={90} />
+                            <SkillsCircle value={71} />
                             <h1 className="heading fs-4">
                                 Social Media Marketing (SMM)
                             </h1>
@@ -92,7 +92,7 @@ export const DigitalMarketing = () => {
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5">
-                            <SkillsCircle value={80} />
+                            <SkillsCircle value={78} />
                             <h1 className="heading fs-4">
                                 Social Media Marketing (SMM)
                             </h1>
@@ -103,7 +103,7 @@ export const DigitalMarketing = () => {
                             </p>
                         </div>
                         <div className="col-md-6 my-3 px-md-5">
-                            <SkillsCircle value={85} />
+                            <SkillsCircle value={76} />
                             <h1 className="heading fs-4">
                                 Content Writing
                             </h1>

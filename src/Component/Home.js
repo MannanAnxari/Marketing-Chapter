@@ -274,7 +274,7 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="sec py-5">
+            <div className="sec py-5 works">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

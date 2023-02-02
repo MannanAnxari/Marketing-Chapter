@@ -347,7 +347,8 @@ footer {
     padding: 6px 14px;
     font-size: 11px;
   }
-  .mainSlide a.btn{
+
+  .mainSlide a.btn {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
   }
@@ -5590,4 +5591,101 @@ h6.fourty-space {
 
 .pricings td {
   vertical-align: middle;
+}
+
+
+.graphic .col-xxl-6 img.about-img {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .image-banner img {
+    width: 100% !important;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .aligned-sec>div>.row,
+  footer .row,
+  .sec.py-5 .row,
+  .works .row,
+  .services>.row {
+    margin-inline: auto;
+    width: 100%;
+  }
+
+  .sec.py5.mainContact {
+    padding-top: 0px !important;
+  }
+
+  .mainSlide>.row {
+    margin-inline: auto;
+  }
+
+  .graphic .col-xxl-6 .about-img {
+    margin-bottom: 14px;
+  }
+
+  .contact-form>form {
+    padding-inline: 0px !important;
+  }
+
+  .col-12.my-5 {
+    margin-block: 1em !important;
+  }
+
+
+  .mainSlide>.row>div {
+    padding-inline: 4px !important;
+  }
+
+  .mb-30 {
+    margin-bottom: 6px !important;
+  }
+
+  .sec.py-md-5 .row.text-start.py-md-0.py-4 {
+    padding-block: 0px !important;
+  }
+
+  /* .mainSlide .row.w-100.mx-auto>div {
+    width: 100%;
+} */
+
+  .mainSlide a.btn {
+    padding: 6px 0px !important;
+    font-size: 9px;
+    width: 100% !important;
+  }
+
+  .card.crd {
+    padding: 42px 32px;
+  }
+
+  .aligned-sec>div>.row>div {
+    margin-block: 0px !important;
+  }
+
+  .graphic .col-lg-7 {
+    display: none;
+  }
+
+  .graphic .col-xxl-6 img.about-img {
+    display: block;
+  }
+
+  .heading {
+    font-size: 30px !important;
+    padding-inline: 0px !important;
+  }
+
+  .heading.fs-4 {}
+
+  .sec.py-5,
+  .graphic,
+  .sec.py-md-5 {
+    padding-block: 44px !important;
+  }
 }

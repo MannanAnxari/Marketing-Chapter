@@ -69,7 +69,7 @@ export const About = () => {
             <div className="sec py-md-5">
                 <div className="container my-md-5">
                     <div className="row text-start py-md-0 py-4">
-                        <div className="col-md-6 my-md-auto my-3"><video className='w-100' src={Video} autoplay="" controlslist="nodownload"></video></div>
+                        {/* <div className="col-md-6 my-md-auto my-3"><video className='w-100' src={Video} autoplay="" controlslist="nodownload"></video></div> */}
                         <div className="col-md-6 my-md-auto my-3">
                             <h1 className="heading">Who We Are
                             </h1>
@@ -139,7 +139,7 @@ export const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="sec py-5">
+            {/* <div className="sec py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 mx-auto my-4">
@@ -174,7 +174,7 @@ export const About = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <ContactForm action={'/'} />
         </motion.div>
     )

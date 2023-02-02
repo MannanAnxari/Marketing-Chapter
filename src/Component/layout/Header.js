@@ -56,9 +56,9 @@ export const Header = () => {
                                         <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/Portfolio' && "active"}`}>
                                             <Link class={`nav-link`} to={'/portfolio'}>Portfolio</Link>
                                         </li>
-                                        <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/pricing' && "active"}`}>
+                                        {/* <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/pricing' && "active"}`}>
                                             <Link class={`nav-link`} to={'/pricing'}>Pricing</Link>
-                                        </li>
+                                        </li> */}
                                         {/* <li class={`nav-item pl-4 pl-md-0 ml-0 ml-md-4 ${pathname === '/Blog' && "active"}`}>
                                             <Link class={`nav-link`} to={'/blog'}>Blog</Link>
                                         </li> */}
