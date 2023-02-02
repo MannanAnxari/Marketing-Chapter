@@ -156,7 +156,7 @@ export const ContactForm = ({ action }) => {
                                                     <option value="Digital Marketing">Digital Marketing</option>
                                                     <option value="Web Development">Web Development</option>
                                                     <option value="Inquiring About">Inquiring About</option>
-                                                    <option value="Content Writing">Content Writing</option>
+                                                    <option value="Content Writing">Content Writing</option> 
                                                     <option value="Graphic Design">Graphic Design</option>
                                                     <option value="Branding">Branding</option>
                                                     <option value="SEO">SEO</option>

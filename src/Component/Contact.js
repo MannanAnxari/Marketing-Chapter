@@ -175,10 +175,12 @@ export const Contact = () => {
                                                     <option hidden value=''>Select About</option>
                                                     <option value="Inquiring About">Inquiring About</option>
                                                     <option value="Software Development">Software Development</option>
-                                                    <option value="Web Development">Web Development</option>
+                                                    <option value="Web Development">Web Development</option> 
                                                     <option value="Digital Marketing">Digital Marketing</option>
+
                                                     <option value="Graphic Design">Graphic Design</option>
                                                     <option value="Branding">Branding</option>
+                                                    <option value="SEO">SEO</option>
                                                 </select>
                                             </div>
                                         </div>
