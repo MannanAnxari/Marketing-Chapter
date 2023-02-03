@@ -70,7 +70,7 @@ export const About = () => {
                 <div className="container my-md-5">
                     <div className="row text-start py-md-0 py-4">
                         {/* <div className="col-md-6 my-md-auto my-3"><video className='w-100' src={Video} autoplay="" controlslist="nodownload"></video></div> */}
-                        <div className="col-md-6 my-md-auto my-3">
+                        <div className="col-md-12 text-center my-md-auto my-3">
                             <h1 className="heading">Who We Are
                             </h1>
                             <p className="para-sm text-muted">At Marketing Chapter, our team of designers, developers, content creators, SEO specialists, digital marketers, and other experts share a passion for creating exceptional brands. Together, we craft remarkable brand experiences that set businesses apart and give them a distinct voice in the market. From startups to established industry leaders, we've helped a diverse range of brands establish their presence and stand out.

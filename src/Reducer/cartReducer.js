@@ -1,33 +1,13 @@
-const initialData = {
-    items: []
+const initialState = {
+    cartItems: [],
+    cartTotalQuantity: 0,
+    cartTotalAmount: 0
 }
-const cartReducer = (state = initialData, action) => {
+
+const cartReducer = (state = initialState, action) => {
     switch (action.type) {
         case "CART":
-            const { items } = action.payload;
-            const itemInCart = state.items.filter((item) => {
-                return item.id === items.id
-            });
-
-            console.log(itemInCart);
-
-            if (itemInCart) {
-                console.log("if");
-                state.items.push({ ...items });
-                return {
-                    items: [...state.items, { items }]
-                }
-            }
-            else {
-                console.log("else");
-                return {
-                    items: [items]
-                }
-                // state.items(items)
-            }
-        // return {
-        //     items: items
-        // }
+            state.cartItems.push(action.payload);
 
         case "REMOVE_ITEM":
 
