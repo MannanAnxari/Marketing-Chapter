@@ -5594,7 +5594,7 @@ h6.fourty-space {
 }
 
 
-.graphic .col-xxl-6 img.about-img {
+.graphic .col-xxl-6 img  {
   display: none;
 }
 
@@ -5688,4 +5688,8 @@ h6.fourty-space {
   .sec.py-md-5 {
     padding-block: 44px !important;
   }
+}
+
+.is-invalid.form-control {
+  border: 1px solid #dc3545;
 }

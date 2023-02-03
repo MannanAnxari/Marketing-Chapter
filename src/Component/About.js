@@ -99,7 +99,7 @@ export const About = () => {
                                             <img src={number4} draggable={false} className={'w-card'} alt="card" />
                                         </div>
                                         <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">Logo Design</a><p className="para-sm text-muted">Marketing Chapter's designers create custom logo designs that give your brand a unique identity and make it stand out in the competitive market.
-</p>
+                                        </p>
                                         </div>
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@ export const About = () => {
                                             <img src={number3} draggable={false} className={'w-card'} alt="card" />
                                         </div>
                                         <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">Web Development</a><p className="para-sm text-muted">Our expert developers create fast, responsive, and user-friendly websites to provide a seamless experience for your audience.
-</p>
+                                        </p>
                                         </div>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@ export const About = () => {
                                             <img src={number2} draggable={false} className={'w-card'} alt="card" />
                                         </div>
                                         <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">SEO</a><p className="para-sm text-muted">Our expert developers create fast, responsive, and user-friendly websites to provide a seamless experience for your audience.
-</p>
+                                        </p>
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@ export const About = () => {
                                         </div>
                                         <div className="content"><a className="fs-3 text-dark my-3 mt-0 d-inline-block">Stationery Design
                                         </a><p className="para-sm text-muted">Our expert developers create fast, responsive, and user-friendly websites to provide a seamless experience for your audience.
-</p>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

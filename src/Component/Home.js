@@ -28,7 +28,12 @@ import { MainPortfolio } from './MainPortfolioSingleHome';
 
 export const Home = () => {
 
-    const [email, setEmail] = useState(null);
+    const [site, setSite] = useState("");
+    const [err, setErr] = useState(true);
+
+    var urlreg = /(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,63}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?/;
+
+
 
     const settings = {
         slidesToShow: 6,
@@ -50,6 +55,12 @@ export const Home = () => {
             }
         }]
     };
+
+    const handleSite = (e) => {
+        urlreg.test(e.target.value) == false ? setErr(false) : setErr(true);
+        e.target.value.length === 0 && setErr(true);
+        setSite(e.target.value);
+    }
     return (
         <motion.div initial={{ transition: { duration: 1 }, opacity: 0 }} animate={{ transition: { duration: 1 }, opacity: 1 }} exit={{ transition: { duration: 1 }, opacity: 0 }}>
             <div className="sliderMain position-relative">
@@ -63,17 +74,21 @@ export const Home = () => {
                                     <div className="row w-100 mx-auto">
                                         <div className="col-md-5 px-0 col-10">
 
-                                            <input type="email" onChange={(e) => setEmail(e.target.value)} className='form-control shadow-sm d-inline-block text-dark' placeholder='Enter Your Website' />
+                                            <input type="url" onChange={(e) => handleSite(e)} className={`form-control shadow-sm d-inline-block text-dark ${!err && "is-invalid"}`} placeholder='Enter Your Website e.g: example.site' />
 
                                         </div>
                                         <div className="col-md-6 px-0 col-10">
-                                            <Link className="btn btn-dark py-2 shadow-sm"
-                                                to={{
-                                                    pathname: "/contact",
-                                                    search: `?websilte=${email}`,
-                                                    state: { fromDashboard: true }
-                                                }}
-                                            >Send me a Proposal</Link>
+                                            {err ?
+                                                <Link className="btn btn-dark py-2 shadow-sm"
+                                                    to={{
+                                                        pathname: "/contact",
+                                                        search: `?website=${site}`,
+                                                        state: { fromDashboard: true }
+                                                    }}
+                                                >Send me a Proposal</Link>
+                                                :
+                                                <a className="btn btn-dark py-2 shadow-sm" href={'#'} >Send me a Proposal</a>
+                                            }
                                         </div>
 
                                     </div>
@@ -282,7 +297,7 @@ export const Home = () => {
                                 Our Recent Works
                             </h1>
                             <p className="para-sm text-muted my-3">
-                            Our professional web developers design results-driven websites tailored to meet your specific needs. Enhance your digital presence with our expert web development services.
+                                Our professional web developers design results-driven websites tailored to meet your specific needs. Enhance your digital presence with our expert web development services.
 
                             </p>
                         </div>

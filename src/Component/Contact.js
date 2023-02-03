@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import email from "./assets/email0.png";
 import phone from "./assets/phone0.png";
 import address from "./assets/location0.png";
@@ -7,16 +7,20 @@ import { useForm } from 'react-hook-form';
 import toast from "react-hot-toast";
 import { AppContext } from '../context/AppContext';
 import { useSearchParams } from 'react-router-dom';
+import { Spinner } from './Spinner';
 
 export const Contact = () => {
 
     const [isLoading, setIsLoading] = useState(false);
+    const [img, setImg] = useState("");
+    const [err, setErr] = useState(false);
+    const [imgLoading, setIsLoadingImg] = useState(false);
 
-    const { APP_NAME, setTitle, URL } = useContext(AppContext);
+    const { APP_NAME, setTitle, URL, PAGESPEED_API } = useContext(AppContext);
     setTitle(`${APP_NAME}Contact`);
 
     const query = new URLSearchParams(window.location.search);
-    const mail = query.get('websilte')
+    const site = query.get('website')
 
     const {
         register,
@@ -48,9 +52,30 @@ export const Contact = () => {
             }).catch(err => {
                 toast.error("Something Went Wrong!");
                 setIsLoading(false);
-
             })
     };
+
+
+    // useEffect(() => {
+
+
+    //     if (site) {
+    //         postData(`https://image.thum.io/get/auth/66698-eliteblue/${site}`)
+    //             .then(data => {
+    //                 setImg(data.lighthouseResult.audits["final-screenshot"].details.data);
+    //             }).catch((err) => {
+    //                 toast.error("Something went wrong!");
+    //                 setErr(true);
+    //             });
+    //     }
+
+    // }, []);
+
+    // async function postData(url, data) {
+    //     const response = await fetch(url);
+    //     return response.json();
+    // }
+
     return (
 
         <>
@@ -163,7 +188,7 @@ export const Contact = () => {
                                         <div className="col-12">
 
                                             <div className="input-container">
-                                                <input type="text" name="website_link" value={mail ? mail : ""} class={`input ${errors.website_link && "form-control is-invalid"}`} placeholder='.' {...register('website_link', { required: false })} />
+                                                <input type="text" name="website_link" value={site ? site : ""} class={`input ${errors.website_link && "form-control is-invalid"}`} placeholder='.' {...register('website_link', { required: false })} />
                                                 <label htmlFor="">Website</label>
                                             </div>
 
@@ -175,7 +200,7 @@ export const Contact = () => {
                                                     <option hidden value=''>Select About</option>
                                                     <option value="Inquiring About">Inquiring About</option>
                                                     <option value="Software Development">Software Development</option>
-                                                    <option value="Web Development">Web Development</option> 
+                                                    <option value="Web Development">Web Development</option>
                                                     <option value="Digital Marketing">Digital Marketing</option>
 
                                                     <option value="Graphic Design">Graphic Design</option>
@@ -213,6 +238,68 @@ export const Contact = () => {
                     </div>
 
                 </div>
+                {site &&
+                    <div className="sec py-md-5 py-3">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-6 my-md-auto my-3 text-start">
+                                    <h1 className="headings">Maximize Your Earnings with Ease!
+                                    </h1>
+                                    <p className="para-sm text-muted my-4">
+                                        Just fill out the form and let our experts take care of the rest. Here's what's next.
+                                    </p>
+                                    <p className="para-sm d-flex gap-2 align-items-start my-2">
+                                        <i className="fa-regular fa-circle-dot text-danger mt-1"></i>
+                                        <div>
+                                            <span className="fw-bold">
+                                                Understand Your Business:
+                                            </span>
+
+                                            <p className='mb-0'>
+                                                From the start, we will dive into understanding your business, competitors, and industry through research and a website audit.
+                                            </p>
+
+                                        </div>
+                                    </p>
+                                    <p className="para-sm d-flex gap-2 align-items-start my-2">
+                                        <i className="fa-regular fa-circle-dot text-danger mt-1"></i>
+                                        <div>
+                                            <span className="fw-bold">
+                                                Craft a Customized Plan:
+
+
+                                            </span>
+
+                                            <p className='mb-0'>
+                                                Using the insights gathered, your strategist will develop tailored recommendations to increase your online revenue.
+                                            </p>
+
+                                        </div>
+                                    </p>
+                                    <p className="para-sm d-flex gap-2 align-items-start my-2">
+                                        <i className="fa-regular fa-circle-dot text-danger mt-1"></i>
+                                        <div>
+                                            <span className="fw-bold">
+                                                Get Set for Growth:
+                                            </span>
+
+                                            <p className='mb-0'>
+                                                Your plan will include all the details, such as pricing, timeline, partnership benefits with Media Chapter, and how we will support your business growth.
+                                            </p>
+
+                                        </div>
+                                    </p>
+                                </div>
+                                <div className="col-md-6 my-3">
+
+                                    <img src={`https://image.thum.io/get/auth/66698-eliteblue/https://${site}`} draggable="false" width={"100%"} className={'rounded-3 shadow-sm'} alt="Website" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
 
             </motion.div>
 

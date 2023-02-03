@@ -33,17 +33,17 @@ export const Graphics = () => {
             <div className="sec py-md-5 py-3 graphic">
                 <div class="container">
                     <div class="row align-items-center text-start">
-                        <div class="col-xl-6 col-lg-7 col-md-8">
+                        <div class="col-xl-6 col-lg-6 col-md-8 mx-auto">
 
-                            <div class="about-img about-img1  ">
+                            <div class="about-img about-img1">
                                 <img src={webImg} alt="" />
                             </div>
 
                         </div>
-                        <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-6 ">
+                        <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                             <div class="about-caption about-caption1">
 
-                                <div class="section-tittle mb-30">
+                                <div class="section-tittle mb-0">
                                     <h2 className='text-start ps-0 '>Graphics Designing<br /></h2>
                                 </div>
                                 <div class="about-img about-img1  ">

@@ -42,8 +42,7 @@ export const MainPortfolio = ({ pageid }) => {
     })
 
 
-    var tempData = [];
-    console.log([...new Set(filteredItmFilter.flat())].length);
+    var tempData = []; 
     for (var index = 0; index < [...new Set(filteredItmFilter.flat())].length; index++) {
         var aa = { "link": `${[...new Set(filteredItmFilter.flat())][index]}` };
         tempData.push(aa);

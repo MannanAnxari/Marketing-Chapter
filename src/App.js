@@ -7,7 +7,7 @@ import { EditorState, ContentState } from 'draft-js';
 import { MainRoutes } from './MainRoutes';
 import { AppContext } from "./context/AppContext.js";
 import { useState, useEffect } from 'react';
-import { URL, APP_NAME } from './config'
+import { URL, APP_NAME, PAGESPEED_API } from './config'
 import { Toaster } from "react-hot-toast";
 import { useSelector, useDispatch } from 'react-redux';
 import { removeUserData, addUserData, updateUserData, setCartItems, removeCartItems } from './actions';
@@ -32,7 +32,7 @@ function App() {
   );
   // var APP_NAME = APP_NAME;
   var values = {
-    teams, teamsImgPath, couponItems, setCouponItems, EditorState, setCartItems, removeCartItems, cartItems, setNoteValue, ContentState, editorState, setEditorState, noteValue, FilterCategory, setFilterCategory, FilterStore, setFilterStore, setTitle, Title, APP_NAME, URL, data, setData, img, setImg, removeUserData, addUserData, updateUserData, dispatch, user
+    teams, teamsImgPath, couponItems, PAGESPEED_API, setCouponItems, EditorState, setCartItems, removeCartItems, cartItems, setNoteValue, ContentState, editorState, setEditorState, noteValue, FilterCategory, setFilterCategory, FilterStore, setFilterStore, setTitle, Title, APP_NAME, URL, data, setData, img, setImg, removeUserData, addUserData, updateUserData, dispatch, user
   }
 
   useEffect(() => {
