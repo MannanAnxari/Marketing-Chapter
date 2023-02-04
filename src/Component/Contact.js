@@ -295,7 +295,7 @@ export const Contact = () => {
                                     </div>
                                     <div className="col-md-6 my-auto">
 
-                                        <img src={`https://image.thum.io/get/auth/66698-eliteblue/https://${site}`} draggable="false" width={"100%"} className={'rounded-3 shadow-sm websiteImg'} alt="Website" />
+                                        <img src={`https://image.thum.io/get/auth/66698-eliteblue/https://${site}`} draggable="false" width={"100%"} className={'rounded-3 shadow-sm websiteUrl'} alt="Website" />
 
                                     </div>
                                 </div>
