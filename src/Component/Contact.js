@@ -8,6 +8,7 @@ import toast from "react-hot-toast";
 import { AppContext } from '../context/AppContext';
 import { useSearchParams } from 'react-router-dom';
 import { Spinner } from './Spinner';
+import { Testimonials } from './Testimonials';
 
 export const Contact = () => {
 
@@ -239,65 +240,179 @@ export const Contact = () => {
 
                 </div>
                 {site &&
-                    <div className="sec py-md-5 py-3">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-6 my-md-auto my-3 text-start">
-                                    <h1 className="headings">Maximize Your Earnings with Ease!
-                                    </h1>
-                                    <p className="para-sm text-muted my-4">
-                                        Just fill out the form and let our experts take care of the rest. Here's what's next.
-                                    </p>
-                                    <p className="para-sm d-flex gap-2 align-items-start my-2">
-                                        <i className="fa-regular fa-circle-dot text-danger mt-1"></i>
-                                        <div>
-                                            <span className="fw-bold">
-                                                Understand Your Business:
-                                            </span>
+                    <>
+                        <div className="sec py-md-5 py-3">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-md-6 my-md-auto my-3 text-start">
+                                        <h1 className="headings">Maximize Your Earnings with Ease!
+                                        </h1>
+                                        <p className="para-sm text-muted my-4">
+                                            Just fill out the form and let our experts take care of the rest. Here's what's next.
+                                        </p>
+                                        <p className="para-sm d-flex gap-2 align-items-start my-2">
+                                            <i className="fa-regular fa-circle-dot text-danger mt-1"></i>
+                                            <div>
+                                                <span className="fw-bold">
+                                                    Understand Your Business:
+                                                </span>
 
-                                            <p className='mb-0'>
-                                                From the start, we will dive into understanding your business, competitors, and industry through research and a website audit.
-                                            </p>
+                                                <p className='mb-0'>
+                                                    From the start, we will dive into understanding your business, competitors, and industry through research and a website audit.
+                                                </p>
 
-                                        </div>
-                                    </p>
-                                    <p className="para-sm d-flex gap-2 align-items-start my-2">
-                                        <i className="fa-regular fa-circle-dot text-danger mt-1"></i>
-                                        <div>
-                                            <span className="fw-bold">
-                                                Craft a Customized Plan:
+                                            </div>
+                                        </p>
+                                        <p className="para-sm d-flex gap-2 align-items-start my-2">
+                                            <i className="fa-regular fa-circle-dot text-danger mt-1"></i>
+                                            <div>
+                                                <span className="fw-bold">
+                                                    Craft a Customized Plan:
 
 
-                                            </span>
+                                                </span>
 
-                                            <p className='mb-0'>
-                                                Using the insights gathered, your strategist will develop tailored recommendations to increase your online revenue.
-                                            </p>
+                                                <p className='mb-0'>
+                                                    Using the insights gathered, your strategist will develop tailored recommendations to increase your online revenue.
+                                                </p>
 
-                                        </div>
-                                    </p>
-                                    <p className="para-sm d-flex gap-2 align-items-start my-2">
-                                        <i className="fa-regular fa-circle-dot text-danger mt-1"></i>
-                                        <div>
-                                            <span className="fw-bold">
-                                                Get Set for Growth:
-                                            </span>
+                                            </div>
+                                        </p>
+                                        <p className="para-sm d-flex gap-2 align-items-start my-2">
+                                            <i className="fa-regular fa-circle-dot text-danger mt-1"></i>
+                                            <div>
 
-                                            <p className='mb-0'>
-                                                Your plan will include all the details, such as pricing, timeline, partnership benefits with Media Chapter, and how we will support your business growth.
-                                            </p>
+                                                <span className="fw-bold">
+                                                    Get Set for Growth:
+                                                </span>
 
-                                        </div>
-                                    </p>
+                                                <p className='mb-0'>
+                                                    Your plan will include all the details, such as pricing, timeline, partnership benefits with Media Chapter, and how we will support your business growth.
+                                                </p>
+
+                                            </div>
+                                        </p>
+                                    </div>
+                                    <div className="col-md-6 my-auto">
+
+                                        <img src={`https://image.thum.io/get/auth/66698-eliteblue/https://${site}`} draggable="false" width={"100%"} className={'rounded-3 shadow-sm websiteImg'} alt="Website" />
+
+                                    </div>
                                 </div>
-                                <div className="col-md-6 my-3">
+                            </div>
+                        </div>
+                        <div className="sec py-md-5 py-3">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-12 mb-4">
+                                        <h1 className="headings fw-bold ">
+                                            Unlock the benefits of a do-it-for-me agency
+                                        </h1>
+                                    </div>
+                                    <div className="col-md-6 text-start my-3">
+                                        <img loading="lazy" src="/wp-content/themes/fx/assets/img/special-pages/fx-free-quote/version-c/icon1.png" alt="" />
+                                        <span class="title light-blue bg-dark">360 tracking &amp; reporting</span>
+                                        <ul className="ps-0 mt-3">
+                                            <li><i class="fa-solid fa-check me-1"></i> 1+ billion data points for optimizing ROI</li>
+                                            <li><i class="fa-solid fa-check me-1"></i> Call, lead, and revenue tracking</li>
+                                            <li><i class="fa-solid fa-check me-1"></i> AI-powered growth opportunity simulator</li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-md-6 text-start my-3">
+                                        <img loading="lazy" src="/wp-content/themes/fx/assets/img/special-pages/fx-free-quote/version-c/icon2.png" alt="" />
+                                        <span class="title green">25+ years of excellence</span>
+                                        <ul className="ps-0 mt-3">
+                                            <li><i class="fa-solid fa-check me-1"></i> 93% client satisfaction score</li>
+                                            <li><i class="fa-solid fa-check me-1"></i> 91% client retention rate</li>
+                                            <li><i class="fa-solid fa-check me-1"></i> 500+ five-star reviews</li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-md-6 text-start my-3">
+                                        <img loading="lazy" src="/wp-content/themes/fx/assets/img/special-pages/fx-free-quote/version-c/icon3.png" alt="" />
+                                        <span class="title orange">$3 billion in client results</span>
+                                        <ul className="ps-0 mt-3">
+                                            <li><i class="fa-solid fa-check me-1"></i> 23% average increase in website traffic</li>
+                                            <li><i class="fa-solid fa-check me-1"></i> 20% average increase in ad spend ROI</li>
+                                            <li><i class="fa-solid fa-check me-1"></i> 7.8 million leads generated for clients</li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-md-6 text-start my-3">
+                                        <img loading="lazy" src="/wp-content/themes/fx/assets/img/special-pages/fx-free-quote/version-c/icon4.png" alt="" />
+                                        <span class="title blue">500+ Experts at Your Service</span>
+                                        <ul className="ps-0 mt-3">
+                                            <li><i class="fa-solid fa-check me-1"></i> 7-time Best Place to Work in PA winner</li>
+                                            <li><i class="fa-solid fa-check me-1"></i> 2+ million hours of expertise</li>
+                                            <li><i class="fa-solid fa-check me-1"></i> Specialized industry and strategy experts</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sec py-md-5 py-3">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-12 mb-4">
+                                        <h1 className="headings fw-bold ">
+                                            Featured Case Study:
+                                        </h1>
+                                        <p className="headings fw-normal fs-5">
+                                            With the data-driven insights of MarketingCloudFX, plus the knowledge of our award-winning team, Maryland Sunrooms exceeded its annual revenue goals by 120%.
+                                        </p>
+                                    </div>
+                                    <div className="col-md-7 my-auto">
+                                        <div className="row w-100 mx-auto my-3">
+                                            <div className="col-md-4 col-12 text-md-start text-center my-md-auto my-3">
+                                                <h1 className="display-4 text-main fw-bold">670%
+                                                </h1>
+                                                <p className="fs-6 text-muted">
+                                                    INCREASE IN PAID
+                                                    AD CONVERSIONS
+                                                </p>
+                                            </div>
+                                            <div className="col-md-4 col-12 text-md-start text-center my-md-auto my-3">
+                                                <h1 className="display-4 text-main fw-bold">327%
+                                                </h1>
+                                                <p className="fs-6 text-muted">
+                                                    INCREASE IN
+                                                    WEBSITE SESSIONS
+                                                </p>
+                                            </div>
+                                            <div className="col-md-4 col-12 text-md-start text-center my-md-auto my-3">
+                                                <h1 className="display-4 text-main fw-bold">321%
+                                                </h1>
+                                                <p className="fs-6 text-muted">
+                                                    DECREASE IN COST-
+                                                    PER-LEAD (CPL)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-5 my-3">
+                                        <img src="https://www.webfx.com/wp-content/themes/fx/assets/img/special-pages/fx-free-quote/version-c/featured-img.png" alt="img" className="w-100" />
+                                    </div>
 
-                                    <img src={`https://image.thum.io/get/auth/66698-eliteblue/https://${site}`} draggable="false" width={"100%"} className={'rounded-3 shadow-sm'} alt="Website" />
 
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div className="sec py-md-5 py-3">
+
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-12 mb-4">
+                                        <h1 className="headings fw-bold ">
+                                            Over +1,020 testimonials
+                                        </h1>
+                                        <p className="headings fw-normal fs-5">
+                                            Hear From Our Clients
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <Testimonials isBg="bg-white" />
+                        </div>
+                    </>
                 }
 
 
