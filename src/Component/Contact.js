@@ -198,12 +198,10 @@ export const Contact = () => {
                                         <div className="col-12">
                                             <div className="input-container">
                                                 <select name="inquiry_about" class={`input ${errors.inquiry_about && "form-control is-invalid"}`}  {...register('inquiry_about', { required: true })}>
-                                                    <option hidden value=''>Select About</option>
-                                                    <option value="Inquiring About">Inquiring About</option>
+                                                    <option selected value='inquiry_about'>Inquiry About</option>
                                                     <option value="Software Development">Software Development</option>
                                                     <option value="Web Development">Web Development</option>
                                                     <option value="Digital Marketing">Digital Marketing</option>
-
                                                     <option value="Graphic Design">Graphic Design</option>
                                                     <option value="Branding">Branding</option>
                                                     <option value="SEO">SEO</option>
@@ -359,9 +357,9 @@ export const Contact = () => {
                                             With the data-driven insights of MarketingCloudFX, plus the knowledge of our award-winning team, Maryland Sunrooms exceeded its annual revenue goals by 120%.
                                         </p>
                                     </div>
-                                    <div className="col-md-7 my-auto">
+                                    <div className="col-md-10 mx-auto my-auto">
                                         <div className="row w-100 mx-auto my-3">
-                                            <div className="col-md-4 col-12 text-md-start text-center my-md-auto my-3">
+                                            <div className="col-md-4 col-12 text-center my-md-auto my-3">
                                                 <h1 className="display-4 text-main fw-bold">670%
                                                 </h1>
                                                 <p className="fs-6 text-muted">
@@ -401,7 +399,7 @@ export const Contact = () => {
                                 <div className="row">
                                     <div className="col-12 mb-4">
                                         <h1 className="headings fw-bold ">
-                                            Over +1,020 testimonials
+                                            Over testimonials
                                         </h1>
                                         <p className="headings fw-normal fs-5">
                                             Hear From Our Clients

@@ -2637,7 +2637,7 @@ img {
 }
 
 .servicez .inner-box:hover:before {
-  background: var(--dark);
+  background: var(--primary);
   bottom: -10px;
 }
 
@@ -5320,6 +5320,8 @@ h6.fourty-space {
 
 .product-card {
   padding: 0px;
+  display: flex;
+  height: 100%;
   width: 100%;
   position: relative;
   box-shadow: 0 2px 7px #dfdfdf;
@@ -5327,6 +5329,8 @@ h6.fourty-space {
   overflow: hidden;
   /* margin: 12px auto; */
   background: #fafafa;
+  flex-direction: column;
+
 }
 
 /* .badge {
@@ -5353,7 +5357,7 @@ h6.fourty-space {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 240px;
+  min-height: 40%;
   padding: 12px;
   background: #f0f0f0;
 }
@@ -5365,6 +5369,9 @@ h6.fourty-space {
 
 .product-details {
   padding: 30px;
+  /* height: -webkit-fill-available; */
+  min-height: 60%;
+  max-height: 60%;
 }
 
 .product-catagory {

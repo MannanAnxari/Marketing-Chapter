@@ -6,23 +6,23 @@ import { toast } from 'react-hot-toast';
 var items = [
     {
         id: 1,
-        title: "Website Rental",
+        title: "Web Rent",
         img: "https://static.wixstatic.com/media/ea6ac8_b6b0cbe25615488e855f515846354dda~mv2.jpg/v1/fill/w_640,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea6ac8_b6b0cbe25615488e855f515846354dda~mv2.jpg",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!",
+        desc: "Rent a fully customizable website with an easy-to-use interface for managing content and personalizing design.",
         price: 230.99,
     },
     {
         id: 2,
-        title: "what's app order web",
+        title: "Quick Order ",
         img: "https://whatsorder.com/assets/wo-hero-img.png",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!",
+        desc: "Sell directly to customers via a WhatsApp-based online store platform.",
         price: 230.99,
     },
     {
         id: 3,
-        title: "Whatsapp bots",
+        title: "WhatBot",
         img: "https://blog.sirena.app/hubfs/Co%CC%81mo%20crear%20un%20bot%20para%20WhatsApp%20(1)-png.png",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!",
+        desc: "Automate customer interactions with chatbots for tasks such as appointment booking, FAQ answering, and recommendations.",
         price: 230.99,
     },
 ]
@@ -162,7 +162,7 @@ export const Product = () => {
                                 Our Products
                             </h2>
                             <p className="para-sm text-muted">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatum consequatur ipsa consectetur beatae ipsum, nostrum molestiae harum reprehenderit error, nesciunt tempora omnis neque mollitia. Sapiente repudiandae dicta iure! Ut?
+                                We empower your digital growth with our products. Enhance your online presence and drive sales with ease, explore our offerings below.
                             </p>
                         </div>
                         {
@@ -172,11 +172,14 @@ export const Product = () => {
                                         <div class="product-tumb">
                                             <img src={item.img} alt="" />
                                         </div>
-                                        <div class="product-details">
-                                            <h4><a href="">{item.title}</a></h4>
-                                            <p>{item.desc}</p>
-                                            <div class="product-bottom-details d-flex align-items-center justify-content-between">
-                                                <div class="product-price"><small>$96.00</small>${item.price}</div>
+                                        <div class="product-details d-flex flex-column justify-content-between">
+                                            <div>
+
+                                                <h4><a href="">{item.title}</a></h4>
+                                                <p>{item.desc}</p>
+                                            </div>
+                                            <div class="product-bottom-details d-flex align-items-center justify-content-end">
+                                                {/* <div class="product-price"><small>$96.00</small>${item.price}</div> */}
                                                 <div class="product-links">
                                                     {/* <a onClick={() => addToCart(item)}><i class="fa fa-shopping-cart"></i></a> */}
                                                     <button className="py-2 btn btn-main" onClick={() => showModal(item.title)}>

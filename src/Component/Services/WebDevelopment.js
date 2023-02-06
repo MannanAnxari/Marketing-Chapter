@@ -44,7 +44,7 @@ export const WebDevelopment = () => {
                     </div>
                 </div>
             </div>
-            <div className="sec py-md-5 py-3 graphic">
+            {/* <div className="sec py-md-5 py-3 graphic">
                 <div class="container">
                     <div class="row align-items-center text-start">
 
@@ -74,7 +74,7 @@ export const WebDevelopment = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <section class="services sec py-md-5 py-3 text-start">
                 <div class="container">

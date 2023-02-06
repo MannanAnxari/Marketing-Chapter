@@ -58,7 +58,7 @@ export const Seo = () => {
             </div> */}
 
 
-            <div className="sec py-md-5 py-3 graphic">
+            {/* <div className="sec py-md-5 py-3 graphic">
                 <div class="container">
                     <div class="row align-items-center text-start">
 
@@ -91,7 +91,7 @@ export const Seo = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
 
@@ -118,7 +118,7 @@ export const Seo = () => {
                             </p>
                         </div>
                         <div className="col-md-6 my-md-auto my-3">
-                            <img src={seo} alt="seo" className="w-100" />
+                            <img src={webImg} alt="seo" className="w-100" />
                         </div>
                     </div>
                 </div>
