@@ -21,7 +21,8 @@ export const Contact = () => {
     setTitle(`${APP_NAME}Contact`);
 
     const query = new URLSearchParams(window.location.search);
-    const site = query.get('website')
+    const site = query.get('website');
+    const [web, setWeb] = useState(site ? site : "");
 
     const {
         register,
@@ -189,7 +190,7 @@ export const Contact = () => {
                                         <div className="col-12">
 
                                             <div className="input-container">
-                                                <input type="text" name="website_link" value={site ? site : ""} class={`input ${errors.website_link && "form-control is-invalid"}`} placeholder='.' {...register('website_link', { required: false })} />
+                                                <input type="text" name="website_link" value={web} onInput={e => setWeb(e.target.value)} class={`input ${errors.website_link && "form-control is-invalid"}`} placeholder='.' {...register('website_link', { required: false })} />
                                                 <label htmlFor="">Website</label>
                                             </div>
 
@@ -204,7 +205,8 @@ export const Contact = () => {
                                                     <option value="Digital Marketing">Digital Marketing</option>
                                                     <option value="Graphic Design">Graphic Design</option>
                                                     <option value="Branding">Branding</option>
-                                                    <option value="SEO">SEO</option>
+                                                    <option value="SEO">Search Engine Optimization</option>
+                                                    <option value="SMM">Social Media Marketing</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -367,7 +369,7 @@ export const Contact = () => {
                                                     AD CONVERSIONS
                                                 </p>
                                             </div>
-                                            <div className="col-md-4 col-12 text-md-start text-center my-md-auto my-3">
+                                            <div className="col-md-4 col-12 text-center my-md-auto my-3">
                                                 <h1 className="display-4 text-main fw-bold">327%
                                                 </h1>
                                                 <p className="fs-6 text-muted">
@@ -375,7 +377,7 @@ export const Contact = () => {
                                                     WEBSITE SESSIONS
                                                 </p>
                                             </div>
-                                            <div className="col-md-4 col-12 text-md-start text-center my-md-auto my-3">
+                                            <div className="col-md-4 col-12 text-center my-md-auto my-3">
                                                 <h1 className="display-4 text-main fw-bold">321%
                                                 </h1>
                                                 <p className="fs-6 text-muted">
@@ -385,10 +387,6 @@ export const Contact = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-5 my-3">
-                                        <img src="https://www.webfx.com/wp-content/themes/fx/assets/img/special-pages/fx-free-quote/version-c/featured-img.png" alt="img" className="w-100" />
-                                    </div>
-
 
                                 </div>
                             </div>

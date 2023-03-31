@@ -33,8 +33,6 @@ export const Blog = () => {
         return txt.length > length ? txt.substring(0, length) + "..." : txt;
     }
 
-
-
     return (
         <motion.div initial={{ transition: { duration: 1 }, opacity: 0 }} animate={{ transition: { duration: 1 }, opacity: 1 }} exit={{ transition: { duration: 1 }, opacity: 0 }}>
             <div className="sec py-5 blog  ">
